@@ -1,6 +1,1 @@
-# myfirst
-code
-
-just for my study.
-
-save some code that I learn
+上传一下杂七杂八的东西
