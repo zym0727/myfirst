@@ -8908,3 +8908,61 @@ Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2019-05-02T14:22:47.228592Z 296 [Note] Aborted connection 296 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
 2019-05-02T14:22:47.228592Z 295 [Note] Aborted connection 295 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
 2019-05-02T14:22:47.228592Z 297 [Note] Aborted connection 297 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-02T14:26:34.650600Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-05-02T14:26:34.653600Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-05-02T14:26:34.653600Z 0 [Note] Shutting down slave threads
+2019-05-02T14:26:34.654600Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-05-02T14:26:34.655600Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-05-02T14:26:34.656600Z 0 [Note] Binlog end
+2019-05-02T14:26:34.660600Z 0 [Note] Shutting down plugin 'ngram'
+2019-05-02T14:26:34.661600Z 0 [Note] Shutting down plugin 'partition'
+2019-05-02T14:26:34.662600Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-05-02T14:26:34.662600Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-05-02T14:26:34.662600Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-05-02T14:26:34.663601Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-05-02T14:26:34.664601Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-05-02T14:26:34.664601Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-05-02T14:26:34.665601Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-05-02T14:26:34.665601Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-05-02T14:26:34.665601Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-05-02T14:26:34.666601Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-05-02T14:26:34.666601Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-05-02T14:26:34.667601Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-05-02T14:26:34.667601Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-05-02T14:26:34.668601Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-05-02T14:26:34.668601Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-05-02T14:26:34.668601Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-05-02T14:26:34.669601Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-05-02T14:26:34.670601Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-05-02T14:26:34.670601Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-05-02T14:26:34.670601Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-05-02T14:26:34.671601Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-05-02T14:26:34.671601Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-05-02T14:26:34.672601Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-05-02T14:26:34.672601Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-05-02T14:26:34.673601Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-05-02T14:26:34.673601Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-05-02T14:26:34.673601Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-05-02T14:26:34.674601Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-05-02T14:26:34.674601Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-05-02T14:26:34.675601Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-05-02T14:26:34.675601Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-05-02T14:26:34.676601Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-05-02T14:26:34.676601Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-05-02T14:26:34.676601Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-05-02T14:26:34.677601Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-05-02T14:26:34.677601Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-05-02T14:26:34.678601Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-05-02T14:26:34.678601Z 0 [Note] InnoDB: Starting shutdown...
+2019-05-02T14:26:34.778607Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-02T14:26:34.783607Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190502 22:26:34
+2019-05-02T14:26:35.801666Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4132793
+2019-05-02T14:26:35.808666Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-05-02T14:26:35.809666Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-05-02T14:26:35.810666Z 0 [Note] Shutting down plugin 'CSV'
+2019-05-02T14:26:35.811666Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-05-02T14:26:35.811666Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-05-02T14:26:35.813666Z 0 [Note] Shutting down plugin 'binlog'
+2019-05-02T14:26:35.817667Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
