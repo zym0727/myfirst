@@ -8966,3 +8966,1222 @@ Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2019-05-02T14:26:35.813666Z 0 [Note] Shutting down plugin 'binlog'
 2019-05-02T14:26:35.817667Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
 
+2019-05-03T06:08:16.331148Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-05-03T06:08:16.332148Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-05-03T06:08:16.341148Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.15-log) starting as process 6332 ...
+2019-05-03T06:08:16.395151Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-05-03T06:08:16.395151Z 0 [Note] InnoDB: Uses event mutexes
+2019-05-03T06:08:16.396151Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-05-03T06:08:16.397151Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-05-03T06:08:16.397151Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-05-03T06:08:16.405152Z 0 [Note] InnoDB: Number of pools: 1
+2019-05-03T06:08:16.409152Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-05-03T06:08:16.426153Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-05-03T06:08:16.429153Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-05-03T06:08:16.469155Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-05-03T06:08:16.643165Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-05-03T06:08:16.646166Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-05-03T06:08:16.746171Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-05-03T06:08:16.753172Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-05-03T06:08:16.755172Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-05-03T06:08:16.760172Z 0 [Note] InnoDB: Waiting for purge to start
+2019-05-03T06:08:16.812175Z 0 [Note] InnoDB: 5.7.15 started; log sequence number 4132793
+2019-05-03T06:08:16.814175Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-03T06:08:16.815175Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-05-03T06:08:16.827176Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190503 14:08:16
+2019-05-03T06:08:16.848177Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-05-03T06:08:16.850177Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-05-03T06:08:16.852177Z 0 [Note] IPv6 is available.
+2019-05-03T06:08:16.852177Z 0 [Note]   - '::' resolves to '::';
+2019-05-03T06:08:16.853177Z 0 [Note] Server socket created on IP: '::'.
+2019-05-03T06:08:17.047189Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-05-03T06:08:17.048189Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-05-03T07:58:47.900452Z 11 [Note] Aborted connection 11 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T07:58:47.900452Z 10 [Note] Aborted connection 10 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T07:58:47.900452Z 9 [Note] Aborted connection 9 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T07:58:47.900452Z 8 [Note] Aborted connection 8 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T07:58:47.900452Z 7 [Note] Aborted connection 7 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T07:58:47.900452Z 6 [Note] Aborted connection 6 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T07:58:47.900452Z 5 [Note] Aborted connection 5 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T07:58:47.900452Z 3 [Note] Aborted connection 3 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T07:58:47.900452Z 2 [Note] Aborted connection 2 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T07:58:47.900452Z 4 [Note] Aborted connection 4 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:03:27.189426Z 14 [Note] Aborted connection 14 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:03:27.189426Z 12 [Note] Aborted connection 12 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:03:27.189426Z 13 [Note] Aborted connection 13 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:03:27.189426Z 15 [Note] Aborted connection 15 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:03:27.189426Z 16 [Note] Aborted connection 16 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:03:27.189426Z 17 [Note] Aborted connection 17 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:03:27.189426Z 19 [Note] Aborted connection 19 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:03:27.189426Z 18 [Note] Aborted connection 18 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:03:27.189426Z 20 [Note] Aborted connection 20 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:03:27.189426Z 21 [Note] Aborted connection 21 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:07:30.382336Z 22 [Note] Aborted connection 22 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:07:30.383336Z 24 [Note] Aborted connection 24 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:07:30.383336Z 23 [Note] Aborted connection 23 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:07:30.383336Z 25 [Note] Aborted connection 25 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:07:30.383336Z 26 [Note] Aborted connection 26 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:07:30.383336Z 27 [Note] Aborted connection 27 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:07:30.383336Z 28 [Note] Aborted connection 28 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:07:30.383336Z 29 [Note] Aborted connection 29 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:07:30.383336Z 30 [Note] Aborted connection 30 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:07:30.383336Z 31 [Note] Aborted connection 31 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:13:48.434959Z 34 [Note] Aborted connection 34 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:13:48.434959Z 33 [Note] Aborted connection 33 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:13:48.434959Z 32 [Note] Aborted connection 32 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:13:48.434959Z 35 [Note] Aborted connection 35 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:13:48.434959Z 37 [Note] Aborted connection 37 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:13:48.434959Z 36 [Note] Aborted connection 36 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:13:48.434959Z 38 [Note] Aborted connection 38 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:13:48.434959Z 39 [Note] Aborted connection 39 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:13:48.434959Z 40 [Note] Aborted connection 40 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:13:48.434959Z 41 [Note] Aborted connection 41 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:18:18.169387Z 44 [Note] Aborted connection 44 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:18:18.169387Z 42 [Note] Aborted connection 42 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:18:18.169387Z 43 [Note] Aborted connection 43 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:18:18.169387Z 45 [Note] Aborted connection 45 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:18:18.169387Z 46 [Note] Aborted connection 46 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:18:18.169387Z 47 [Note] Aborted connection 47 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:18:18.170387Z 48 [Note] Aborted connection 48 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:18:18.170387Z 49 [Note] Aborted connection 49 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:18:18.170387Z 50 [Note] Aborted connection 50 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:18:18.170387Z 51 [Note] Aborted connection 51 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:25:21.055575Z 55 [Note] Aborted connection 55 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:25:21.055575Z 53 [Note] Aborted connection 53 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:25:21.055575Z 52 [Note] Aborted connection 52 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:25:21.055575Z 54 [Note] Aborted connection 54 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:25:21.055575Z 57 [Note] Aborted connection 57 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:25:21.055575Z 56 [Note] Aborted connection 56 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:25:21.055575Z 58 [Note] Aborted connection 58 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:25:21.055575Z 59 [Note] Aborted connection 59 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:25:21.055575Z 60 [Note] Aborted connection 60 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:25:21.055575Z 61 [Note] Aborted connection 61 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:29:13.626877Z 62 [Note] Aborted connection 62 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:29:13.626877Z 63 [Note] Aborted connection 63 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:29:13.626877Z 64 [Note] Aborted connection 64 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:29:13.626877Z 65 [Note] Aborted connection 65 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:29:13.626877Z 66 [Note] Aborted connection 66 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:29:13.626877Z 67 [Note] Aborted connection 67 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:29:13.626877Z 68 [Note] Aborted connection 68 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:29:13.626877Z 69 [Note] Aborted connection 69 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:29:13.626877Z 70 [Note] Aborted connection 70 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:29:13.626877Z 71 [Note] Aborted connection 71 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:35:41.497062Z 87 [Note] Aborted connection 87 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:35:41.497062Z 88 [Note] Aborted connection 88 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:35:41.497062Z 90 [Note] Aborted connection 90 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:35:41.497062Z 89 [Note] Aborted connection 89 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:35:41.497062Z 83 [Note] Aborted connection 83 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:35:41.498062Z 82 [Note] Aborted connection 82 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:35:41.498062Z 85 [Note] Aborted connection 85 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:35:41.498062Z 84 [Note] Aborted connection 84 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:35:41.498062Z 86 [Note] Aborted connection 86 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:35:41.498062Z 91 [Note] Aborted connection 91 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:41:10.875021Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 67763ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2019-05-03T08:44:31.028469Z 103 [Note] Aborted connection 103 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:44:31.028469Z 104 [Note] Aborted connection 104 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:44:31.028469Z 106 [Note] Aborted connection 106 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:44:31.028469Z 105 [Note] Aborted connection 105 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:44:31.028469Z 107 [Note] Aborted connection 107 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:44:31.028469Z 108 [Note] Aborted connection 108 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:44:31.028469Z 109 [Note] Aborted connection 109 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:44:31.028469Z 110 [Note] Aborted connection 110 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:44:31.028469Z 102 [Note] Aborted connection 102 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:44:31.028469Z 101 [Note] Aborted connection 101 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:51:08.598209Z 124 [Note] Aborted connection 124 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:51:08.598209Z 125 [Note] Aborted connection 125 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:51:08.598209Z 130 [Note] Aborted connection 130 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:51:08.599209Z 126 [Note] Aborted connection 126 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:51:08.599209Z 129 [Note] Aborted connection 129 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:51:08.599209Z 127 [Note] Aborted connection 127 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:51:08.599209Z 128 [Note] Aborted connection 128 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:51:08.599209Z 121 [Note] Aborted connection 121 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:51:08.599209Z 123 [Note] Aborted connection 123 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:51:08.599209Z 122 [Note] Aborted connection 122 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:52:56.643389Z 131 [Note] Aborted connection 131 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:52:56.643389Z 132 [Note] Aborted connection 132 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:52:56.643389Z 133 [Note] Aborted connection 133 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:52:56.643389Z 134 [Note] Aborted connection 134 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:52:56.643389Z 136 [Note] Aborted connection 136 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:52:56.643389Z 135 [Note] Aborted connection 135 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:52:56.643389Z 137 [Note] Aborted connection 137 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:52:56.643389Z 138 [Note] Aborted connection 138 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:52:56.643389Z 139 [Note] Aborted connection 139 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:52:56.643389Z 140 [Note] Aborted connection 140 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:56:59.653288Z 142 [Note] Aborted connection 142 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:56:59.653288Z 143 [Note] Aborted connection 143 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:56:59.653288Z 141 [Note] Aborted connection 141 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:56:59.653288Z 145 [Note] Aborted connection 145 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:56:59.653288Z 146 [Note] Aborted connection 146 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:56:59.653288Z 144 [Note] Aborted connection 144 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:56:59.653288Z 147 [Note] Aborted connection 147 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:56:59.653288Z 148 [Note] Aborted connection 148 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:56:59.653288Z 149 [Note] Aborted connection 149 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:56:59.653288Z 150 [Note] Aborted connection 150 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:59:03.707384Z 151 [Note] Aborted connection 151 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:59:03.707384Z 152 [Note] Aborted connection 152 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:59:03.707384Z 153 [Note] Aborted connection 153 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:59:03.707384Z 154 [Note] Aborted connection 154 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:59:03.707384Z 155 [Note] Aborted connection 155 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:59:03.707384Z 157 [Note] Aborted connection 157 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:59:03.707384Z 156 [Note] Aborted connection 156 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:59:03.707384Z 158 [Note] Aborted connection 158 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:59:03.707384Z 159 [Note] Aborted connection 159 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T08:59:03.707384Z 160 [Note] Aborted connection 160 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:01:14.071840Z 162 [Note] Aborted connection 162 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:01:14.071840Z 161 [Note] Aborted connection 161 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:01:14.071840Z 163 [Note] Aborted connection 163 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:01:14.071840Z 164 [Note] Aborted connection 164 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:01:14.072840Z 165 [Note] Aborted connection 165 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:01:14.072840Z 166 [Note] Aborted connection 166 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:01:14.072840Z 167 [Note] Aborted connection 167 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:01:14.072840Z 168 [Note] Aborted connection 168 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:01:14.072840Z 169 [Note] Aborted connection 169 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:01:14.072840Z 170 [Note] Aborted connection 170 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:03:06.553274Z 173 [Note] Aborted connection 173 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:03:06.553274Z 171 [Note] Aborted connection 171 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:03:06.553274Z 172 [Note] Aborted connection 172 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:03:06.553274Z 174 [Note] Aborted connection 174 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:03:06.553274Z 175 [Note] Aborted connection 175 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:03:06.553274Z 176 [Note] Aborted connection 176 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:03:06.553274Z 177 [Note] Aborted connection 177 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:03:06.553274Z 178 [Note] Aborted connection 178 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:03:06.553274Z 179 [Note] Aborted connection 179 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:03:06.553274Z 180 [Note] Aborted connection 180 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:05:45.774380Z 182 [Note] Aborted connection 182 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:05:45.774380Z 183 [Note] Aborted connection 183 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:05:45.774380Z 181 [Note] Aborted connection 181 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:05:45.774380Z 184 [Note] Aborted connection 184 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:05:45.774380Z 185 [Note] Aborted connection 185 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:05:45.775380Z 186 [Note] Aborted connection 186 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:05:45.775380Z 187 [Note] Aborted connection 187 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:05:45.775380Z 190 [Note] Aborted connection 190 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:05:45.775380Z 188 [Note] Aborted connection 188 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:05:45.775380Z 189 [Note] Aborted connection 189 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:09:15.952402Z 192 [Note] Aborted connection 192 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:09:15.952402Z 191 [Note] Aborted connection 191 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:09:15.952402Z 193 [Note] Aborted connection 193 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:09:15.952402Z 195 [Note] Aborted connection 195 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:09:15.952402Z 194 [Note] Aborted connection 194 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:09:15.953402Z 196 [Note] Aborted connection 196 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:09:15.953402Z 197 [Note] Aborted connection 197 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:09:15.953402Z 198 [Note] Aborted connection 198 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:09:15.953402Z 199 [Note] Aborted connection 199 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T09:09:15.953402Z 200 [Note] Aborted connection 200 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:11:54.855399Z 211 [Note] Aborted connection 211 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:11:54.855399Z 212 [Note] Aborted connection 212 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:11:54.855399Z 210 [Note] Aborted connection 210 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:11:54.855399Z 213 [Note] Aborted connection 213 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:11:54.856399Z 214 [Note] Aborted connection 214 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:11:54.856399Z 215 [Note] Aborted connection 215 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:11:54.856399Z 216 [Note] Aborted connection 216 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:11:54.856399Z 217 [Note] Aborted connection 217 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:11:54.856399Z 218 [Note] Aborted connection 218 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:11:54.856399Z 219 [Note] Aborted connection 219 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:15:17.474988Z 221 [Note] Aborted connection 221 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:15:17.474988Z 222 [Note] Aborted connection 222 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:15:17.474988Z 220 [Note] Aborted connection 220 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:15:17.474988Z 223 [Note] Aborted connection 223 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:15:17.474988Z 224 [Note] Aborted connection 224 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:15:17.474988Z 225 [Note] Aborted connection 225 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:15:17.474988Z 226 [Note] Aborted connection 226 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:15:17.474988Z 227 [Note] Aborted connection 227 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:15:17.475988Z 228 [Note] Aborted connection 228 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:15:17.475988Z 229 [Note] Aborted connection 229 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:18:49.483114Z 230 [Note] Aborted connection 230 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:18:49.483114Z 232 [Note] Aborted connection 232 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:18:49.483114Z 231 [Note] Aborted connection 231 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:18:49.483114Z 233 [Note] Aborted connection 233 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:18:49.483114Z 234 [Note] Aborted connection 234 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:18:49.483114Z 235 [Note] Aborted connection 235 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:18:49.483114Z 236 [Note] Aborted connection 236 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:18:49.484114Z 237 [Note] Aborted connection 237 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:18:49.484114Z 238 [Note] Aborted connection 238 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:18:49.484114Z 239 [Note] Aborted connection 239 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:22:38.909237Z 241 [Note] Aborted connection 241 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:22:38.909237Z 240 [Note] Aborted connection 240 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:22:38.909237Z 242 [Note] Aborted connection 242 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:22:38.910237Z 244 [Note] Aborted connection 244 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:22:38.910237Z 246 [Note] Aborted connection 246 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:22:38.910237Z 247 [Note] Aborted connection 247 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:22:38.910237Z 243 [Note] Aborted connection 243 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:22:38.910237Z 245 [Note] Aborted connection 245 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:22:38.910237Z 248 [Note] Aborted connection 248 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:22:38.910237Z 249 [Note] Aborted connection 249 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:24:59.767293Z 251 [Note] Aborted connection 251 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:24:59.767293Z 252 [Note] Aborted connection 252 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:24:59.767293Z 250 [Note] Aborted connection 250 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:24:59.767293Z 253 [Note] Aborted connection 253 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:24:59.767293Z 254 [Note] Aborted connection 254 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:24:59.767293Z 255 [Note] Aborted connection 255 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:24:59.767293Z 256 [Note] Aborted connection 256 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:24:59.767293Z 257 [Note] Aborted connection 257 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:24:59.767293Z 259 [Note] Aborted connection 259 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:24:59.767293Z 258 [Note] Aborted connection 258 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:30:09.907032Z 260 [Note] Aborted connection 260 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:30:09.907032Z 261 [Note] Aborted connection 261 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:30:09.908032Z 262 [Note] Aborted connection 262 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:30:09.908032Z 263 [Note] Aborted connection 263 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:30:09.908032Z 264 [Note] Aborted connection 264 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:30:09.908032Z 265 [Note] Aborted connection 265 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:30:09.908032Z 266 [Note] Aborted connection 266 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:30:09.908032Z 267 [Note] Aborted connection 267 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:30:09.908032Z 268 [Note] Aborted connection 268 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T10:30:09.908032Z 269 [Note] Aborted connection 269 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:46:08.302666Z 271 [Note] Aborted connection 271 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:46:08.302666Z 272 [Note] Aborted connection 272 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:46:08.302666Z 273 [Note] Aborted connection 273 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:46:08.302666Z 274 [Note] Aborted connection 274 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:46:08.302666Z 275 [Note] Aborted connection 275 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:46:08.302666Z 276 [Note] Aborted connection 276 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:46:08.302666Z 277 [Note] Aborted connection 277 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:46:08.302666Z 278 [Note] Aborted connection 278 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:46:08.302666Z 279 [Note] Aborted connection 279 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:46:08.302666Z 280 [Note] Aborted connection 280 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:47:56.163835Z 283 [Note] Aborted connection 283 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:47:56.163835Z 281 [Note] Aborted connection 281 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:47:56.163835Z 282 [Note] Aborted connection 282 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:47:56.164835Z 284 [Note] Aborted connection 284 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:47:56.164835Z 285 [Note] Aborted connection 285 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:47:56.164835Z 286 [Note] Aborted connection 286 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:47:56.164835Z 287 [Note] Aborted connection 287 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:47:56.164835Z 288 [Note] Aborted connection 288 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:47:56.164835Z 289 [Note] Aborted connection 289 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:47:56.164835Z 290 [Note] Aborted connection 290 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:54:49.235461Z 293 [Note] Aborted connection 293 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:54:49.235461Z 291 [Note] Aborted connection 291 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:54:49.235461Z 292 [Note] Aborted connection 292 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:54:49.235461Z 295 [Note] Aborted connection 295 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:54:49.235461Z 294 [Note] Aborted connection 294 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:54:49.235461Z 297 [Note] Aborted connection 297 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:54:49.235461Z 296 [Note] Aborted connection 296 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:54:49.235461Z 298 [Note] Aborted connection 298 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:54:49.235461Z 299 [Note] Aborted connection 299 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:54:49.235461Z 300 [Note] Aborted connection 300 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:57:10.328532Z 303 [Note] Aborted connection 303 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:57:10.328532Z 301 [Note] Aborted connection 301 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:57:10.328532Z 302 [Note] Aborted connection 302 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:57:10.329532Z 309 [Note] Aborted connection 309 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:57:10.329532Z 308 [Note] Aborted connection 308 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:57:10.330532Z 305 [Note] Aborted connection 305 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:57:10.330532Z 307 [Note] Aborted connection 307 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:57:10.330532Z 310 [Note] Aborted connection 310 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:57:10.333532Z 306 [Note] Aborted connection 306 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:57:10.338532Z 304 [Note] Aborted connection 304 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:59:36.828911Z 313 [Note] Aborted connection 313 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:59:36.828911Z 312 [Note] Aborted connection 312 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:59:36.828911Z 311 [Note] Aborted connection 311 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:59:36.828911Z 315 [Note] Aborted connection 315 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:59:36.828911Z 314 [Note] Aborted connection 314 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:59:36.828911Z 316 [Note] Aborted connection 316 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:59:36.828911Z 317 [Note] Aborted connection 317 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:59:36.828911Z 318 [Note] Aborted connection 318 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:59:36.828911Z 319 [Note] Aborted connection 319 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T12:59:36.828911Z 320 [Note] Aborted connection 320 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:01:17.975696Z 323 [Note] Aborted connection 323 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:01:17.975696Z 322 [Note] Aborted connection 322 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:01:17.975696Z 321 [Note] Aborted connection 321 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:01:17.975696Z 325 [Note] Aborted connection 325 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:01:17.975696Z 326 [Note] Aborted connection 326 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:01:17.975696Z 324 [Note] Aborted connection 324 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:01:17.975696Z 327 [Note] Aborted connection 327 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:01:17.975696Z 328 [Note] Aborted connection 328 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:01:17.976696Z 329 [Note] Aborted connection 329 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:01:17.976696Z 330 [Note] Aborted connection 330 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:04:06.254321Z 331 [Note] Aborted connection 331 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:04:06.254321Z 333 [Note] Aborted connection 333 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:04:06.254321Z 332 [Note] Aborted connection 332 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:04:06.254321Z 336 [Note] Aborted connection 336 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:04:06.254321Z 334 [Note] Aborted connection 334 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:04:06.254321Z 335 [Note] Aborted connection 335 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:04:06.254321Z 337 [Note] Aborted connection 337 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:04:06.255321Z 339 [Note] Aborted connection 339 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:04:06.255321Z 338 [Note] Aborted connection 338 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:04:06.255321Z 340 [Note] Aborted connection 340 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:06:04.377077Z 342 [Note] Aborted connection 342 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:06:04.377077Z 343 [Note] Aborted connection 343 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:06:04.377077Z 341 [Note] Aborted connection 341 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:06:04.377077Z 344 [Note] Aborted connection 344 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:06:04.377077Z 346 [Note] Aborted connection 346 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:06:04.377077Z 345 [Note] Aborted connection 345 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:06:04.377077Z 347 [Note] Aborted connection 347 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:06:04.377077Z 348 [Note] Aborted connection 348 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:06:04.377077Z 349 [Note] Aborted connection 349 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:06:04.378077Z 350 [Note] Aborted connection 350 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:36:28.936436Z 353 [Note] Aborted connection 353 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:36:28.936436Z 351 [Note] Aborted connection 351 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:36:28.936436Z 352 [Note] Aborted connection 352 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:36:28.936436Z 354 [Note] Aborted connection 354 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:36:28.936436Z 355 [Note] Aborted connection 355 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:36:28.936436Z 356 [Note] Aborted connection 356 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:36:28.936436Z 357 [Note] Aborted connection 357 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:36:28.936436Z 358 [Note] Aborted connection 358 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:36:28.937436Z 359 [Note] Aborted connection 359 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:36:28.937436Z 360 [Note] Aborted connection 360 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:41:07.647378Z 369 [Note] Aborted connection 369 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:41:07.648378Z 361 [Note] Aborted connection 361 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:41:07.648378Z 362 [Note] Aborted connection 362 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:41:07.648378Z 364 [Note] Aborted connection 364 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:41:07.648378Z 363 [Note] Aborted connection 363 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:41:07.648378Z 365 [Note] Aborted connection 365 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:41:07.648378Z 366 [Note] Aborted connection 366 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:41:07.648378Z 367 [Note] Aborted connection 367 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:41:07.648378Z 370 [Note] Aborted connection 370 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:41:07.648378Z 368 [Note] Aborted connection 368 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:56:58.692774Z 388 [Note] Aborted connection 388 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:56:58.692774Z 387 [Note] Aborted connection 387 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:56:58.692774Z 389 [Note] Aborted connection 389 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:56:58.692774Z 390 [Note] Aborted connection 390 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:56:58.692774Z 385 [Note] Aborted connection 385 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:56:58.692774Z 386 [Note] Aborted connection 386 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:56:58.692774Z 381 [Note] Aborted connection 381 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:56:58.692774Z 383 [Note] Aborted connection 383 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:56:58.692774Z 384 [Note] Aborted connection 384 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T13:56:58.692774Z 382 [Note] Aborted connection 382 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:02:28.116616Z 391 [Note] Aborted connection 391 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:02:28.116616Z 393 [Note] Aborted connection 393 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:02:28.116616Z 392 [Note] Aborted connection 392 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:02:28.116616Z 394 [Note] Aborted connection 394 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:02:28.116616Z 396 [Note] Aborted connection 396 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:02:28.116616Z 395 [Note] Aborted connection 395 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:02:28.116616Z 397 [Note] Aborted connection 397 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:02:28.116616Z 398 [Note] Aborted connection 398 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:02:28.116616Z 399 [Note] Aborted connection 399 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:02:28.116616Z 400 [Note] Aborted connection 400 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:06:59.698150Z 401 [Note] Aborted connection 401 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:06:59.698150Z 402 [Note] Aborted connection 402 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:06:59.698150Z 403 [Note] Aborted connection 403 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:06:59.698150Z 404 [Note] Aborted connection 404 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:06:59.698150Z 405 [Note] Aborted connection 405 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:06:59.698150Z 406 [Note] Aborted connection 406 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:06:59.698150Z 407 [Note] Aborted connection 407 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:06:59.698150Z 408 [Note] Aborted connection 408 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:06:59.698150Z 409 [Note] Aborted connection 409 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:06:59.698150Z 410 [Note] Aborted connection 410 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:16:31.743869Z 411 [Note] Aborted connection 411 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:16:31.743869Z 412 [Note] Aborted connection 412 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:16:31.743869Z 413 [Note] Aborted connection 413 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:16:31.743869Z 414 [Note] Aborted connection 414 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:16:31.743869Z 415 [Note] Aborted connection 415 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:16:31.743869Z 416 [Note] Aborted connection 416 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:16:31.743869Z 417 [Note] Aborted connection 417 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:16:31.743869Z 418 [Note] Aborted connection 418 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:16:31.744869Z 419 [Note] Aborted connection 419 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:16:31.744869Z 420 [Note] Aborted connection 420 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:32:35.483992Z 463 [Note] Aborted connection 463 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:32:35.484992Z 467 [Note] Aborted connection 467 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:32:35.483992Z 465 [Note] Aborted connection 465 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:32:35.483992Z 468 [Note] Aborted connection 468 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:32:35.483992Z 459 [Note] Aborted connection 459 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:32:35.484992Z 460 [Note] Aborted connection 460 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:32:35.484992Z 461 [Note] Aborted connection 461 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:32:35.483992Z 462 [Note] Aborted connection 462 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:32:35.484992Z 466 [Note] Aborted connection 466 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:32:35.484992Z 464 [Note] Aborted connection 464 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:42:07.628716Z 482 [Note] Aborted connection 482 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:42:07.629717Z 484 [Note] Aborted connection 484 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:42:07.629717Z 483 [Note] Aborted connection 483 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:42:07.630717Z 487 [Note] Aborted connection 487 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:42:07.630717Z 485 [Note] Aborted connection 485 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:42:07.630717Z 486 [Note] Aborted connection 486 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:42:07.630717Z 479 [Note] Aborted connection 479 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:42:07.630717Z 480 [Note] Aborted connection 480 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:42:07.630717Z 481 [Note] Aborted connection 481 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:42:07.630717Z 478 [Note] Aborted connection 478 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:48:18.739943Z 506 [Note] Aborted connection 506 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:48:18.739943Z 503 [Note] Aborted connection 503 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:48:18.740943Z 504 [Note] Aborted connection 504 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:48:18.740943Z 499 [Note] Aborted connection 499 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:48:18.740943Z 507 [Note] Aborted connection 507 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:48:18.740943Z 502 [Note] Aborted connection 502 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:48:18.740943Z 500 [Note] Aborted connection 500 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:48:18.740943Z 501 [Note] Aborted connection 501 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:48:18.741943Z 505 [Note] Aborted connection 505 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:48:18.741943Z 498 [Note] Aborted connection 498 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:57:32.001588Z 521 [Note] Aborted connection 521 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:57:32.001588Z 523 [Note] Aborted connection 523 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:57:32.002588Z 522 [Note] Aborted connection 522 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:57:32.002588Z 524 [Note] Aborted connection 524 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:57:32.002588Z 526 [Note] Aborted connection 526 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:57:32.002588Z 525 [Note] Aborted connection 525 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:57:32.002588Z 527 [Note] Aborted connection 527 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:57:32.002588Z 519 [Note] Aborted connection 519 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:57:32.002588Z 518 [Note] Aborted connection 518 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T14:57:32.002588Z 520 [Note] Aborted connection 520 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:05:00.129219Z 542 [Note] Aborted connection 542 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:05:00.130219Z 543 [Note] Aborted connection 543 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:05:00.130219Z 544 [Note] Aborted connection 544 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:05:00.130219Z 545 [Note] Aborted connection 545 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:05:00.130219Z 541 [Note] Aborted connection 541 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:05:00.131219Z 546 [Note] Aborted connection 546 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:05:00.132219Z 547 [Note] Aborted connection 547 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:05:00.132219Z 539 [Note] Aborted connection 539 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:05:00.132219Z 540 [Note] Aborted connection 540 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:05:00.132219Z 538 [Note] Aborted connection 538 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:12:12.156930Z 548 [Note] Aborted connection 548 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:12:12.156930Z 549 [Note] Aborted connection 549 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:12:12.156930Z 550 [Note] Aborted connection 550 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:12:12.157930Z 551 [Note] Aborted connection 551 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:12:12.157930Z 552 [Note] Aborted connection 552 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:12:12.157930Z 553 [Note] Aborted connection 553 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:12:12.157930Z 554 [Note] Aborted connection 554 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:12:12.157930Z 555 [Note] Aborted connection 555 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:12:12.157930Z 556 [Note] Aborted connection 556 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:12:12.157930Z 557 [Note] Aborted connection 557 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:31:02.678592Z 615 [Note] Aborted connection 615 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:31:02.678592Z 605 [Note] Aborted connection 605 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:31:02.678592Z 613 [Note] Aborted connection 613 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:31:02.679592Z 606 [Note] Aborted connection 606 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:31:02.679592Z 611 [Note] Aborted connection 611 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:31:02.679592Z 612 [Note] Aborted connection 612 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:31:02.679592Z 608 [Note] Aborted connection 608 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:31:02.679592Z 609 [Note] Aborted connection 609 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:31:02.679592Z 610 [Note] Aborted connection 610 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:31:02.679592Z 614 [Note] Aborted connection 614 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-03T15:32:15.519758Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-05-03T15:32:15.520758Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-05-03T15:32:15.520758Z 0 [Note] Shutting down slave threads
+2019-05-03T15:32:15.522758Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-05-03T15:32:15.522758Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-05-03T15:32:15.523758Z 0 [Note] Binlog end
+2019-05-03T15:32:15.532759Z 0 [Note] Shutting down plugin 'ngram'
+2019-05-03T15:32:15.533759Z 0 [Note] Shutting down plugin 'partition'
+2019-05-03T15:32:15.534759Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-05-03T15:32:15.534759Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-05-03T15:32:15.534759Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-05-03T15:32:15.535759Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-05-03T15:32:15.536759Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-05-03T15:32:15.536759Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-05-03T15:32:15.537759Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-05-03T15:32:15.537759Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-05-03T15:32:15.538759Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-05-03T15:32:15.538759Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-05-03T15:32:15.539759Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-05-03T15:32:15.540759Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-05-03T15:32:15.540759Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-05-03T15:32:15.540759Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-05-03T15:32:15.541759Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-05-03T15:32:15.541759Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-05-03T15:32:15.542759Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-05-03T15:32:15.543759Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-05-03T15:32:15.543759Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-05-03T15:32:15.544759Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-05-03T15:32:15.544759Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-05-03T15:32:15.545759Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-05-03T15:32:15.545759Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-05-03T15:32:15.546760Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-05-03T15:32:15.546760Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-05-03T15:32:15.547760Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-05-03T15:32:15.547760Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-05-03T15:32:15.548760Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-05-03T15:32:15.548760Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-05-03T15:32:15.549760Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-05-03T15:32:15.549760Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-05-03T15:32:15.550760Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-05-03T15:32:15.550760Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-05-03T15:32:15.551760Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-05-03T15:32:15.551760Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-05-03T15:32:15.552760Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-05-03T15:32:15.552760Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-05-03T15:32:15.553760Z 0 [Note] InnoDB: Starting shutdown...
+2019-05-03T15:32:15.654766Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-03T15:32:15.666766Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190503 23:32:15
+2019-05-03T15:32:16.798831Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4136119
+2019-05-03T15:32:16.800831Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-05-03T15:32:16.801831Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-05-03T15:32:16.802831Z 0 [Note] Shutting down plugin 'CSV'
+2019-05-03T15:32:16.803831Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-05-03T15:32:16.804832Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-05-03T15:32:16.805832Z 0 [Note] Shutting down plugin 'binlog'
+2019-05-03T15:32:16.811832Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2019-05-04T02:11:23.391243Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-05-04T02:11:23.391243Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-05-04T02:11:23.391243Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.15-log) starting as process 4520 ...
+2019-05-04T02:11:23.422443Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-05-04T02:11:23.438043Z 0 [Note] InnoDB: Uses event mutexes
+2019-05-04T02:11:23.438043Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-05-04T02:11:23.438043Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-05-04T02:11:23.438043Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-05-04T02:11:23.438043Z 0 [Note] InnoDB: Number of pools: 1
+2019-05-04T02:11:23.438043Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-05-04T02:11:23.453643Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-05-04T02:11:23.453643Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-05-04T02:11:23.484843Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-05-04T02:11:23.656443Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-05-04T02:11:23.656443Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-05-04T02:11:23.718843Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-05-04T02:11:23.734443Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-05-04T02:11:23.734443Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-05-04T02:11:23.734443Z 0 [Note] InnoDB: Waiting for purge to start
+2019-05-04T02:11:23.796843Z 0 [Note] InnoDB: 5.7.15 started; log sequence number 4136119
+2019-05-04T02:11:23.796843Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-04T02:11:23.796843Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-05-04T02:11:23.843644Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190504 10:11:23
+2019-05-04T02:11:23.843644Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-05-04T02:11:23.843644Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-05-04T02:11:23.843644Z 0 [Note] IPv6 is available.
+2019-05-04T02:11:23.843644Z 0 [Note]   - '::' resolves to '::';
+2019-05-04T02:11:23.843644Z 0 [Note] Server socket created on IP: '::'.
+2019-05-04T02:11:24.030844Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-05-04T02:11:24.046444Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-05-04T02:37:15.732364Z 51 [Note] Aborted connection 51 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:37:15.732364Z 53 [Note] Aborted connection 53 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:37:15.732364Z 52 [Note] Aborted connection 52 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:37:15.732364Z 50 [Note] Aborted connection 50 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:37:15.732364Z 49 [Note] Aborted connection 49 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:37:15.732364Z 45 [Note] Aborted connection 45 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:37:15.732364Z 47 [Note] Aborted connection 47 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:37:15.732364Z 48 [Note] Aborted connection 48 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:37:15.732364Z 44 [Note] Aborted connection 44 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:37:15.732364Z 46 [Note] Aborted connection 46 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:47:20.767970Z 72 [Note] Aborted connection 72 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:47:20.768970Z 69 [Note] Aborted connection 69 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:47:20.768970Z 73 [Note] Aborted connection 73 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:47:20.768970Z 70 [Note] Aborted connection 70 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:47:20.768970Z 71 [Note] Aborted connection 71 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:47:20.768970Z 68 [Note] Aborted connection 68 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:47:20.768970Z 65 [Note] Aborted connection 65 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:47:20.768970Z 66 [Note] Aborted connection 66 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:47:20.769970Z 67 [Note] Aborted connection 67 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:47:20.769970Z 64 [Note] Aborted connection 64 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:59:04.201204Z 96 [Note] Aborted connection 96 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:59:04.205204Z 99 [Note] Aborted connection 99 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:59:04.205204Z 98 [Note] Aborted connection 98 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:59:04.205204Z 100 [Note] Aborted connection 100 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:59:04.206204Z 97 [Note] Aborted connection 97 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:59:04.206204Z 103 [Note] Aborted connection 103 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:59:04.206204Z 102 [Note] Aborted connection 102 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:59:04.206204Z 94 [Note] Aborted connection 94 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:59:04.206204Z 101 [Note] Aborted connection 101 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T02:59:04.206204Z 95 [Note] Aborted connection 95 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:01:26.988371Z 106 [Note] Aborted connection 106 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:01:26.988371Z 105 [Note] Aborted connection 105 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:01:26.988371Z 104 [Note] Aborted connection 104 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:01:26.988371Z 108 [Note] Aborted connection 108 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:01:26.988371Z 109 [Note] Aborted connection 109 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:01:26.988371Z 107 [Note] Aborted connection 107 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:01:26.988371Z 110 [Note] Aborted connection 110 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:01:26.988371Z 111 [Note] Aborted connection 111 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:01:26.988371Z 112 [Note] Aborted connection 112 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:01:26.988371Z 113 [Note] Aborted connection 113 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:13:24.428406Z 148 [Note] Aborted connection 148 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:13:24.428406Z 149 [Note] Aborted connection 149 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:13:24.428406Z 144 [Note] Aborted connection 144 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:13:24.428406Z 150 [Note] Aborted connection 150 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:13:24.428406Z 145 [Note] Aborted connection 145 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:13:24.428406Z 146 [Note] Aborted connection 146 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:13:24.428406Z 153 [Note] Aborted connection 153 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:13:24.428406Z 152 [Note] Aborted connection 152 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:13:24.428406Z 151 [Note] Aborted connection 151 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T03:13:24.428406Z 147 [Note] Aborted connection 147 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T04:45:36.251527Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-05-04T04:45:36.251527Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-05-04T04:45:36.251527Z 0 [Note] Shutting down slave threads
+2019-05-04T04:45:36.251527Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-05-04T04:45:36.251527Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-05-04T04:45:36.251527Z 0 [Note] Binlog end
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'ngram'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'partition'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-05-04T04:45:36.267127Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-05-04T04:45:36.282727Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-05-04T04:45:36.282727Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-05-04T04:45:36.282727Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-05-04T04:45:36.282727Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-05-04T04:45:36.282727Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-05-04T04:45:36.282727Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-05-04T04:45:36.282727Z 0 [Note] InnoDB: Starting shutdown...
+2019-05-04T04:45:36.391927Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-04T04:45:36.391927Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190504 12:45:36
+2019-05-04T04:45:37.374729Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4136147
+2019-05-04T04:45:37.374729Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-05-04T04:45:37.374729Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-05-04T04:45:37.374729Z 0 [Note] Shutting down plugin 'CSV'
+2019-05-04T04:45:37.374729Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-05-04T04:45:37.374729Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-05-04T04:45:37.374729Z 0 [Note] Shutting down plugin 'binlog'
+2019-05-04T04:45:37.374729Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2019-05-04T05:18:00.866417Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-05-04T05:18:00.866417Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-05-04T05:18:00.882017Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.15-log) starting as process 6656 ...
+2019-05-04T05:18:00.913217Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-05-04T05:18:00.913217Z 0 [Note] InnoDB: Uses event mutexes
+2019-05-04T05:18:00.913217Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-05-04T05:18:00.928817Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-05-04T05:18:00.928817Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-05-04T05:18:00.928817Z 0 [Note] InnoDB: Number of pools: 1
+2019-05-04T05:18:00.928817Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-05-04T05:18:00.944417Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-05-04T05:18:00.944417Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-05-04T05:18:00.991217Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-05-04T05:18:01.162817Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-05-04T05:18:01.162817Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-05-04T05:18:01.240818Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-05-04T05:18:01.240818Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-05-04T05:18:01.240818Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-05-04T05:18:01.240818Z 0 [Note] InnoDB: Waiting for purge to start
+2019-05-04T05:18:01.318818Z 0 [Note] InnoDB: 5.7.15 started; log sequence number 4136147
+2019-05-04T05:18:01.318818Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-04T05:18:01.318818Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-05-04T05:18:01.365618Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-05-04T05:18:01.365618Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-05-04T05:18:01.365618Z 0 [Note] IPv6 is available.
+2019-05-04T05:18:01.365618Z 0 [Note]   - '::' resolves to '::';
+2019-05-04T05:18:01.365618Z 0 [Note] Server socket created on IP: '::'.
+2019-05-04T05:18:01.381218Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190504 13:18:01
+2019-05-04T05:18:01.521618Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-05-04T05:18:01.521618Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-05-04T06:03:41.598885Z 44 [Note] Aborted connection 44 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:03:41.599886Z 41 [Note] Aborted connection 41 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:03:41.599886Z 37 [Note] Aborted connection 37 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:03:41.599886Z 40 [Note] Aborted connection 40 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:03:41.599886Z 38 [Note] Aborted connection 38 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:03:41.599886Z 42 [Note] Aborted connection 42 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:03:41.599886Z 36 [Note] Aborted connection 36 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:03:41.599886Z 35 [Note] Aborted connection 35 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:03:41.599886Z 39 [Note] Aborted connection 39 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:03:41.600886Z 43 [Note] Aborted connection 43 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:15:52.046665Z 74 [Note] Aborted connection 74 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:15:52.047665Z 73 [Note] Aborted connection 73 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:15:52.047665Z 71 [Note] Aborted connection 71 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:15:52.047665Z 68 [Note] Aborted connection 68 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:15:52.047665Z 70 [Note] Aborted connection 70 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:15:52.047665Z 72 [Note] Aborted connection 72 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:15:52.048665Z 69 [Note] Aborted connection 69 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:15:52.048665Z 67 [Note] Aborted connection 67 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:15:52.048665Z 65 [Note] Aborted connection 65 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:15:52.048665Z 66 [Note] Aborted connection 66 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:20:51.274780Z 77 [Note] Aborted connection 77 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:20:51.274780Z 76 [Note] Aborted connection 76 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:20:51.274780Z 75 [Note] Aborted connection 75 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:20:51.274780Z 78 [Note] Aborted connection 78 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:20:51.274780Z 80 [Note] Aborted connection 80 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:20:51.274780Z 79 [Note] Aborted connection 79 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:20:51.274780Z 81 [Note] Aborted connection 81 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:20:51.275780Z 83 [Note] Aborted connection 83 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:20:51.275780Z 82 [Note] Aborted connection 82 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T06:20:51.275780Z 84 [Note] Aborted connection 84 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:15:27.410164Z 86 [Note] Aborted connection 86 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:15:27.410164Z 87 [Note] Aborted connection 87 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:15:27.410164Z 89 [Note] Aborted connection 89 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:15:27.410164Z 85 [Note] Aborted connection 85 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:15:27.410164Z 88 [Note] Aborted connection 88 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:15:27.410164Z 91 [Note] Aborted connection 91 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:15:27.410164Z 92 [Note] Aborted connection 92 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:15:27.410164Z 93 [Note] Aborted connection 93 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:15:27.410164Z 90 [Note] Aborted connection 90 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:15:27.412164Z 94 [Note] Aborted connection 94 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:18:02.700046Z 95 [Note] Aborted connection 95 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:18:02.700046Z 97 [Note] Aborted connection 97 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:18:02.700046Z 96 [Note] Aborted connection 96 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:18:02.701046Z 99 [Note] Aborted connection 99 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:18:02.701046Z 100 [Note] Aborted connection 100 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:18:02.701046Z 98 [Note] Aborted connection 98 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:18:02.701046Z 101 [Note] Aborted connection 101 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:18:02.701046Z 102 [Note] Aborted connection 102 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:18:02.701046Z 103 [Note] Aborted connection 103 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:18:02.701046Z 104 [Note] Aborted connection 104 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:20:34.988756Z 105 [Note] Aborted connection 105 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:20:34.988756Z 107 [Note] Aborted connection 107 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:20:34.988756Z 106 [Note] Aborted connection 106 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:20:34.988756Z 109 [Note] Aborted connection 109 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:20:34.989756Z 108 [Note] Aborted connection 108 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:20:34.989756Z 110 [Note] Aborted connection 110 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:20:34.989756Z 111 [Note] Aborted connection 111 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:20:34.989756Z 112 [Note] Aborted connection 112 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:20:34.989756Z 113 [Note] Aborted connection 113 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:20:34.989756Z 114 [Note] Aborted connection 114 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:22:50.011479Z 116 [Note] Aborted connection 116 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:22:50.011479Z 117 [Note] Aborted connection 117 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:22:50.012479Z 115 [Note] Aborted connection 115 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:22:50.012479Z 119 [Note] Aborted connection 119 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:22:50.012479Z 118 [Note] Aborted connection 118 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:22:50.012479Z 120 [Note] Aborted connection 120 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:22:50.012479Z 121 [Note] Aborted connection 121 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:22:50.012479Z 122 [Note] Aborted connection 122 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:22:50.012479Z 123 [Note] Aborted connection 123 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:22:50.012479Z 124 [Note] Aborted connection 124 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:23:54.338158Z 126 [Note] Aborted connection 126 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:23:54.338158Z 125 [Note] Aborted connection 125 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:23:54.338158Z 127 [Note] Aborted connection 127 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:23:54.338158Z 130 [Note] Aborted connection 130 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:23:54.338158Z 129 [Note] Aborted connection 129 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:23:54.338158Z 128 [Note] Aborted connection 128 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:23:54.338158Z 132 [Note] Aborted connection 132 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:23:54.338158Z 131 [Note] Aborted connection 131 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:23:54.338158Z 133 [Note] Aborted connection 133 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:23:54.338158Z 134 [Note] Aborted connection 134 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:45:35.287568Z 137 [Note] Aborted connection 137 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:45:35.287568Z 135 [Note] Aborted connection 135 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:45:35.287568Z 139 [Note] Aborted connection 139 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:45:35.287568Z 136 [Note] Aborted connection 136 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:45:35.287568Z 140 [Note] Aborted connection 140 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:45:35.287568Z 141 [Note] Aborted connection 141 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:45:35.287568Z 142 [Note] Aborted connection 142 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:45:35.287568Z 138 [Note] Aborted connection 138 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:45:35.287568Z 143 [Note] Aborted connection 143 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:45:35.287568Z 144 [Note] Aborted connection 144 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:48:28.142455Z 147 [Note] Aborted connection 147 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:48:28.142455Z 146 [Note] Aborted connection 146 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:48:28.142455Z 145 [Note] Aborted connection 145 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:48:28.142455Z 150 [Note] Aborted connection 150 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:48:28.142455Z 149 [Note] Aborted connection 149 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:48:28.142455Z 148 [Note] Aborted connection 148 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:48:28.142455Z 151 [Note] Aborted connection 151 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:48:28.142455Z 153 [Note] Aborted connection 153 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:48:28.142455Z 152 [Note] Aborted connection 152 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T07:48:28.142455Z 154 [Note] Aborted connection 154 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:05:47.295891Z 155 [Note] Aborted connection 155 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:05:47.295891Z 156 [Note] Aborted connection 156 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:05:47.295891Z 157 [Note] Aborted connection 157 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:05:47.296891Z 158 [Note] Aborted connection 158 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:05:47.296891Z 159 [Note] Aborted connection 159 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:05:47.296891Z 162 [Note] Aborted connection 162 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:05:47.296891Z 161 [Note] Aborted connection 161 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:05:47.296891Z 163 [Note] Aborted connection 163 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:05:47.296891Z 164 [Note] Aborted connection 164 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:05:47.297891Z 160 [Note] Aborted connection 160 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:08:16.769441Z 165 [Note] Aborted connection 165 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:08:16.769441Z 167 [Note] Aborted connection 167 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:08:16.769441Z 166 [Note] Aborted connection 166 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:08:16.769441Z 169 [Note] Aborted connection 169 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:08:16.769441Z 170 [Note] Aborted connection 170 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:08:16.769441Z 168 [Note] Aborted connection 168 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:08:16.769441Z 171 [Note] Aborted connection 171 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:08:16.769441Z 172 [Note] Aborted connection 172 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:08:16.769441Z 173 [Note] Aborted connection 173 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:08:16.769441Z 174 [Note] Aborted connection 174 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:09:46.652582Z 176 [Note] Aborted connection 176 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:09:46.652582Z 175 [Note] Aborted connection 175 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:09:46.652582Z 177 [Note] Aborted connection 177 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:09:46.652582Z 178 [Note] Aborted connection 178 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:09:46.652582Z 179 [Note] Aborted connection 179 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:09:46.652582Z 180 [Note] Aborted connection 180 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:09:46.652582Z 181 [Note] Aborted connection 181 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:09:46.652582Z 182 [Note] Aborted connection 182 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:09:46.653582Z 183 [Note] Aborted connection 183 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:09:46.653582Z 184 [Note] Aborted connection 184 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:20:11.243306Z 186 [Note] Aborted connection 186 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:20:11.243306Z 187 [Note] Aborted connection 187 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:20:11.243306Z 188 [Note] Aborted connection 188 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:20:11.243306Z 189 [Note] Aborted connection 189 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:20:11.243306Z 190 [Note] Aborted connection 190 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:20:11.243306Z 191 [Note] Aborted connection 191 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:20:11.243306Z 192 [Note] Aborted connection 192 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:20:11.243306Z 193 [Note] Aborted connection 193 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:20:11.244306Z 194 [Note] Aborted connection 194 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:20:11.244306Z 195 [Note] Aborted connection 195 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:26:25.256699Z 197 [Note] Aborted connection 197 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:26:25.256699Z 196 [Note] Aborted connection 196 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:26:25.256699Z 198 [Note] Aborted connection 198 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:26:25.256699Z 199 [Note] Aborted connection 199 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:26:25.256699Z 201 [Note] Aborted connection 201 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:26:25.256699Z 200 [Note] Aborted connection 200 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:26:25.256699Z 202 [Note] Aborted connection 202 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:26:25.256699Z 203 [Note] Aborted connection 203 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:26:25.256699Z 204 [Note] Aborted connection 204 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:26:25.256699Z 205 [Note] Aborted connection 205 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:32:06.699228Z 207 [Note] Aborted connection 207 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:32:06.699228Z 206 [Note] Aborted connection 206 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:32:06.699228Z 208 [Note] Aborted connection 208 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:32:06.699228Z 209 [Note] Aborted connection 209 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:32:06.699228Z 210 [Note] Aborted connection 210 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:32:06.699228Z 211 [Note] Aborted connection 211 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:32:06.700228Z 212 [Note] Aborted connection 212 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:32:06.700228Z 213 [Note] Aborted connection 213 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:32:06.700228Z 214 [Note] Aborted connection 214 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:32:06.700228Z 215 [Note] Aborted connection 215 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:37:12.274706Z 235 [Note] Aborted connection 235 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:37:12.274706Z 231 [Note] Aborted connection 231 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:37:12.274706Z 234 [Note] Aborted connection 234 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:37:12.274706Z 227 [Note] Aborted connection 227 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:37:12.274706Z 232 [Note] Aborted connection 232 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:37:12.274706Z 233 [Note] Aborted connection 233 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:37:12.274706Z 228 [Note] Aborted connection 228 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:37:12.274706Z 230 [Note] Aborted connection 230 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:37:12.274706Z 226 [Note] Aborted connection 226 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:37:12.274706Z 229 [Note] Aborted connection 229 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:41:05.003017Z 237 [Note] Aborted connection 237 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:41:05.003017Z 238 [Note] Aborted connection 238 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:41:05.003017Z 236 [Note] Aborted connection 236 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:41:05.003017Z 240 [Note] Aborted connection 240 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:41:05.003017Z 241 [Note] Aborted connection 241 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:41:05.003017Z 239 [Note] Aborted connection 239 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:41:05.003017Z 242 [Note] Aborted connection 242 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:41:05.003017Z 243 [Note] Aborted connection 243 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:41:05.003017Z 244 [Note] Aborted connection 244 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:41:05.003017Z 245 [Note] Aborted connection 245 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:43:26.400105Z 247 [Note] Aborted connection 247 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:43:26.400105Z 248 [Note] Aborted connection 248 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:43:26.400105Z 246 [Note] Aborted connection 246 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:43:26.400105Z 249 [Note] Aborted connection 249 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:43:26.400105Z 251 [Note] Aborted connection 251 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:43:26.400105Z 250 [Note] Aborted connection 250 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:43:26.400105Z 252 [Note] Aborted connection 252 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:43:26.400105Z 253 [Note] Aborted connection 253 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:43:26.400105Z 254 [Note] Aborted connection 254 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:43:26.400105Z 255 [Note] Aborted connection 255 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:47:53.439379Z 257 [Note] Aborted connection 257 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:47:53.439379Z 256 [Note] Aborted connection 256 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:47:53.439379Z 258 [Note] Aborted connection 258 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:47:53.439379Z 259 [Note] Aborted connection 259 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:47:53.439379Z 260 [Note] Aborted connection 260 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:47:53.439379Z 261 [Note] Aborted connection 261 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:47:53.439379Z 262 [Note] Aborted connection 262 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:47:53.439379Z 263 [Note] Aborted connection 263 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:47:53.439379Z 265 [Note] Aborted connection 265 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:47:53.439379Z 264 [Note] Aborted connection 264 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:50:47.561338Z 268 [Note] Aborted connection 268 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:50:47.561338Z 266 [Note] Aborted connection 266 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:50:47.561338Z 267 [Note] Aborted connection 267 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:50:47.561338Z 270 [Note] Aborted connection 270 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:50:47.561338Z 269 [Note] Aborted connection 269 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:50:47.561338Z 271 [Note] Aborted connection 271 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:50:47.561338Z 272 [Note] Aborted connection 272 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:50:47.561338Z 273 [Note] Aborted connection 273 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:50:47.561338Z 274 [Note] Aborted connection 274 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:50:47.561338Z 275 [Note] Aborted connection 275 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:52:17.801499Z 277 [Note] Aborted connection 277 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:52:17.801499Z 276 [Note] Aborted connection 276 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:52:17.801499Z 278 [Note] Aborted connection 278 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:52:17.801499Z 279 [Note] Aborted connection 279 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:52:17.801499Z 280 [Note] Aborted connection 280 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:52:17.801499Z 281 [Note] Aborted connection 281 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:52:17.801499Z 282 [Note] Aborted connection 282 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:52:17.801499Z 283 [Note] Aborted connection 283 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:52:17.801499Z 284 [Note] Aborted connection 284 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:52:17.801499Z 285 [Note] Aborted connection 285 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:53:38.531117Z 286 [Note] Aborted connection 286 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:53:38.531117Z 287 [Note] Aborted connection 287 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:53:38.531117Z 288 [Note] Aborted connection 288 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:53:38.531117Z 289 [Note] Aborted connection 289 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:53:38.531117Z 290 [Note] Aborted connection 290 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:53:38.531117Z 291 [Note] Aborted connection 291 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:53:38.531117Z 292 [Note] Aborted connection 292 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:53:38.531117Z 293 [Note] Aborted connection 293 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:53:38.531117Z 294 [Note] Aborted connection 294 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:53:38.531117Z 295 [Note] Aborted connection 295 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:56:41.742596Z 297 [Note] Aborted connection 297 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:56:41.742596Z 298 [Note] Aborted connection 298 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:56:41.742596Z 296 [Note] Aborted connection 296 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:56:41.742596Z 300 [Note] Aborted connection 300 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:56:41.742596Z 299 [Note] Aborted connection 299 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:56:41.742596Z 301 [Note] Aborted connection 301 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:56:41.742596Z 302 [Note] Aborted connection 302 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:56:41.742596Z 303 [Note] Aborted connection 303 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:56:41.742596Z 304 [Note] Aborted connection 304 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:56:41.742596Z 305 [Note] Aborted connection 305 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:58:45.078650Z 308 [Note] Aborted connection 308 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:58:45.078650Z 307 [Note] Aborted connection 307 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:58:45.078650Z 306 [Note] Aborted connection 306 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:58:45.078650Z 309 [Note] Aborted connection 309 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:58:45.078650Z 310 [Note] Aborted connection 310 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:58:45.078650Z 311 [Note] Aborted connection 311 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:58:45.078650Z 312 [Note] Aborted connection 312 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:58:45.078650Z 313 [Note] Aborted connection 313 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:58:45.078650Z 314 [Note] Aborted connection 314 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T08:58:45.078650Z 315 [Note] Aborted connection 315 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:02:02.720955Z 319 [Note] Aborted connection 319 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:02:02.721955Z 317 [Note] Aborted connection 317 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:02:02.721955Z 316 [Note] Aborted connection 316 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:02:02.721955Z 318 [Note] Aborted connection 318 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:02:02.721955Z 321 [Note] Aborted connection 321 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:02:02.721955Z 320 [Note] Aborted connection 320 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:02:02.721955Z 322 [Note] Aborted connection 322 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:02:02.721955Z 323 [Note] Aborted connection 323 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:02:02.721955Z 324 [Note] Aborted connection 324 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:02:02.721955Z 325 [Note] Aborted connection 325 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:04:42.945119Z 326 [Note] Aborted connection 326 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:04:42.945119Z 327 [Note] Aborted connection 327 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:04:42.945119Z 328 [Note] Aborted connection 328 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:04:42.945119Z 331 [Note] Aborted connection 331 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:04:42.946119Z 329 [Note] Aborted connection 329 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:04:42.946119Z 330 [Note] Aborted connection 330 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:04:42.946119Z 332 [Note] Aborted connection 332 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:04:42.946119Z 333 [Note] Aborted connection 333 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:04:42.946119Z 334 [Note] Aborted connection 334 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:04:42.946119Z 335 [Note] Aborted connection 335 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:39:33.317681Z 341 [Note] Aborted connection 341 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:39:33.318681Z 340 [Note] Aborted connection 340 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:39:33.318681Z 342 [Note] Aborted connection 342 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:39:33.318681Z 343 [Note] Aborted connection 343 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:39:33.318681Z 344 [Note] Aborted connection 344 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:39:33.318681Z 345 [Note] Aborted connection 345 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:39:33.318681Z 346 [Note] Aborted connection 346 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:39:33.318681Z 347 [Note] Aborted connection 347 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:39:33.318681Z 348 [Note] Aborted connection 348 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:39:33.318681Z 349 [Note] Aborted connection 349 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:45:46.821045Z 353 [Note] Aborted connection 353 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:45:46.821045Z 354 [Note] Aborted connection 354 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:45:46.821045Z 355 [Note] Aborted connection 355 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:45:46.821045Z 356 [Note] Aborted connection 356 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:45:46.821045Z 357 [Note] Aborted connection 357 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:45:46.821045Z 358 [Note] Aborted connection 358 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:45:46.821045Z 359 [Note] Aborted connection 359 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:45:46.821045Z 350 [Note] Aborted connection 350 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:45:46.821045Z 351 [Note] Aborted connection 351 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:45:46.821045Z 352 [Note] Aborted connection 352 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:50:39.768800Z 375 [Note] Aborted connection 375 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:50:39.769800Z 376 [Note] Aborted connection 376 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:50:39.769800Z 378 [Note] Aborted connection 378 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:50:39.769800Z 377 [Note] Aborted connection 377 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:50:39.769800Z 361 [Note] Aborted connection 361 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:50:39.769800Z 370 [Note] Aborted connection 370 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:50:39.769800Z 371 [Note] Aborted connection 371 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:50:39.769800Z 372 [Note] Aborted connection 372 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:50:39.769800Z 373 [Note] Aborted connection 373 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:50:39.769800Z 374 [Note] Aborted connection 374 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:56:27.367682Z 379 [Note] Aborted connection 379 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:56:27.367682Z 380 [Note] Aborted connection 380 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:56:27.368682Z 381 [Note] Aborted connection 381 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:56:27.368682Z 382 [Note] Aborted connection 382 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:56:27.368682Z 383 [Note] Aborted connection 383 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:56:27.368682Z 384 [Note] Aborted connection 384 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:56:27.368682Z 385 [Note] Aborted connection 385 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:56:27.368682Z 386 [Note] Aborted connection 386 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:56:27.368682Z 387 [Note] Aborted connection 387 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T09:56:27.368682Z 388 [Note] Aborted connection 388 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:09:24.862152Z 420 [Note] Aborted connection 420 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:09:24.862152Z 425 [Note] Aborted connection 425 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:09:24.863152Z 426 [Note] Aborted connection 426 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:09:24.863152Z 424 [Note] Aborted connection 424 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:09:24.863152Z 421 [Note] Aborted connection 421 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:09:24.863152Z 423 [Note] Aborted connection 423 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:09:24.863152Z 422 [Note] Aborted connection 422 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:09:24.863152Z 417 [Note] Aborted connection 417 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:09:24.863152Z 418 [Note] Aborted connection 418 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:09:24.863152Z 419 [Note] Aborted connection 419 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:11:37.060713Z 427 [Note] Aborted connection 427 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:11:37.061713Z 429 [Note] Aborted connection 429 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:11:37.061713Z 428 [Note] Aborted connection 428 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:11:37.061713Z 430 [Note] Aborted connection 430 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:11:37.061713Z 431 [Note] Aborted connection 431 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:11:37.061713Z 432 [Note] Aborted connection 432 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:11:37.061713Z 433 [Note] Aborted connection 433 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:11:37.061713Z 434 [Note] Aborted connection 434 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:11:37.061713Z 435 [Note] Aborted connection 435 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:11:37.061713Z 436 [Note] Aborted connection 436 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:14:57.418173Z 437 [Note] Aborted connection 437 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:14:57.418173Z 439 [Note] Aborted connection 439 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:14:57.418173Z 438 [Note] Aborted connection 438 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:14:57.418173Z 440 [Note] Aborted connection 440 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:14:57.418173Z 441 [Note] Aborted connection 441 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:14:57.418173Z 442 [Note] Aborted connection 442 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:14:57.418173Z 443 [Note] Aborted connection 443 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:14:57.418173Z 444 [Note] Aborted connection 444 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:14:57.418173Z 445 [Note] Aborted connection 445 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:14:57.418173Z 446 [Note] Aborted connection 446 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:16:07.396176Z 448 [Note] Aborted connection 448 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:16:07.397176Z 449 [Note] Aborted connection 449 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:16:07.397176Z 447 [Note] Aborted connection 447 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:16:07.397176Z 451 [Note] Aborted connection 451 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:16:07.397176Z 450 [Note] Aborted connection 450 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:16:07.397176Z 452 [Note] Aborted connection 452 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:16:07.397176Z 453 [Note] Aborted connection 453 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:16:07.397176Z 454 [Note] Aborted connection 454 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:16:07.397176Z 455 [Note] Aborted connection 455 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:16:07.397176Z 456 [Note] Aborted connection 456 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:24:44.198735Z 457 [Note] Aborted connection 457 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:24:44.198735Z 458 [Note] Aborted connection 458 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:24:44.198735Z 459 [Note] Aborted connection 459 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:24:44.198735Z 461 [Note] Aborted connection 461 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:24:44.198735Z 460 [Note] Aborted connection 460 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:24:44.199735Z 462 [Note] Aborted connection 462 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:24:44.199735Z 463 [Note] Aborted connection 463 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:24:44.199735Z 464 [Note] Aborted connection 464 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:24:44.199735Z 465 [Note] Aborted connection 465 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:24:44.199735Z 466 [Note] Aborted connection 466 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:27:45.191087Z 468 [Note] Aborted connection 468 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:27:45.191087Z 469 [Note] Aborted connection 469 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:27:45.191087Z 467 [Note] Aborted connection 467 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:27:45.191087Z 470 [Note] Aborted connection 470 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:27:45.191087Z 471 [Note] Aborted connection 471 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:27:45.191087Z 473 [Note] Aborted connection 473 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:27:45.191087Z 472 [Note] Aborted connection 472 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:27:45.191087Z 474 [Note] Aborted connection 474 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:27:45.191087Z 475 [Note] Aborted connection 475 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T10:27:45.191087Z 476 [Note] Aborted connection 476 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T12:34:18.939425Z 478 [Note] Aborted connection 478 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T12:34:18.939425Z 479 [Note] Aborted connection 479 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T12:34:18.939425Z 477 [Note] Aborted connection 477 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T12:34:18.939425Z 480 [Note] Aborted connection 480 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T12:34:18.939425Z 481 [Note] Aborted connection 481 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T12:34:18.939425Z 482 [Note] Aborted connection 482 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T12:34:18.939425Z 483 [Note] Aborted connection 483 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T12:34:18.940425Z 484 [Note] Aborted connection 484 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T12:34:18.940425Z 485 [Note] Aborted connection 485 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T12:34:18.940425Z 486 [Note] Aborted connection 486 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:49:55.361893Z 12 [Note] Aborted connection 12 to db: 'unconnected' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2019-05-04T13:50:16.112080Z 490 [Note] Aborted connection 490 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:50:16.112080Z 489 [Note] Aborted connection 489 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:50:16.112080Z 491 [Note] Aborted connection 491 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:50:16.112080Z 493 [Note] Aborted connection 493 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:50:16.112080Z 492 [Note] Aborted connection 492 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:50:16.112080Z 494 [Note] Aborted connection 494 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:50:16.112080Z 495 [Note] Aborted connection 495 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:50:16.112080Z 496 [Note] Aborted connection 496 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:50:16.112080Z 497 [Note] Aborted connection 497 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:50:16.112080Z 498 [Note] Aborted connection 498 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:55:13.214073Z 500 [Note] Aborted connection 500 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:55:13.214073Z 499 [Note] Aborted connection 499 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:55:13.214073Z 501 [Note] Aborted connection 501 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:55:13.214073Z 502 [Note] Aborted connection 502 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:55:13.214073Z 503 [Note] Aborted connection 503 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:55:13.214073Z 504 [Note] Aborted connection 504 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:55:13.214073Z 505 [Note] Aborted connection 505 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:55:13.214073Z 506 [Note] Aborted connection 506 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:55:13.214073Z 507 [Note] Aborted connection 507 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T13:55:13.214073Z 508 [Note] Aborted connection 508 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:07:13.173253Z 519 [Note] Aborted connection 519 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:07:13.173253Z 520 [Note] Aborted connection 520 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:07:13.174253Z 526 [Note] Aborted connection 526 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:07:13.174253Z 525 [Note] Aborted connection 525 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:07:13.174253Z 511 [Note] Aborted connection 511 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:07:13.174253Z 524 [Note] Aborted connection 524 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:07:13.174253Z 521 [Note] Aborted connection 521 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:07:13.174253Z 523 [Note] Aborted connection 523 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:07:13.174253Z 522 [Note] Aborted connection 522 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:07:13.174253Z 518 [Note] Aborted connection 518 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:09:40.034653Z 529 [Note] Aborted connection 529 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:09:40.034653Z 528 [Note] Aborted connection 528 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:09:40.034653Z 527 [Note] Aborted connection 527 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:09:40.034653Z 530 [Note] Aborted connection 530 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:09:40.034653Z 532 [Note] Aborted connection 532 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:09:40.034653Z 531 [Note] Aborted connection 531 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:09:40.034653Z 534 [Note] Aborted connection 534 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:09:40.034653Z 533 [Note] Aborted connection 533 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:09:40.034653Z 535 [Note] Aborted connection 535 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:09:40.034653Z 536 [Note] Aborted connection 536 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:12:49.899512Z 537 [Note] Aborted connection 537 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:12:49.899512Z 539 [Note] Aborted connection 539 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:12:49.899512Z 538 [Note] Aborted connection 538 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:12:49.899512Z 540 [Note] Aborted connection 540 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:12:49.899512Z 541 [Note] Aborted connection 541 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:12:49.899512Z 542 [Note] Aborted connection 542 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:12:49.900512Z 543 [Note] Aborted connection 543 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:12:49.900512Z 544 [Note] Aborted connection 544 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:12:49.900512Z 545 [Note] Aborted connection 545 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:12:49.900512Z 546 [Note] Aborted connection 546 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:18:35.519281Z 549 [Note] Aborted connection 549 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:18:35.519281Z 548 [Note] Aborted connection 548 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:18:35.519281Z 547 [Note] Aborted connection 547 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:18:35.519281Z 550 [Note] Aborted connection 550 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:18:35.519281Z 551 [Note] Aborted connection 551 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:18:35.519281Z 552 [Note] Aborted connection 552 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:18:35.519281Z 553 [Note] Aborted connection 553 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:18:35.519281Z 554 [Note] Aborted connection 554 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:18:35.519281Z 555 [Note] Aborted connection 555 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:18:35.519281Z 556 [Note] Aborted connection 556 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:21:04.218786Z 557 [Note] Aborted connection 557 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:21:04.218786Z 559 [Note] Aborted connection 559 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:21:04.218786Z 558 [Note] Aborted connection 558 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:21:04.218786Z 560 [Note] Aborted connection 560 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:21:04.218786Z 561 [Note] Aborted connection 561 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:21:04.218786Z 562 [Note] Aborted connection 562 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:21:04.218786Z 563 [Note] Aborted connection 563 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:21:04.218786Z 564 [Note] Aborted connection 564 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:21:04.218786Z 565 [Note] Aborted connection 565 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:21:04.218786Z 566 [Note] Aborted connection 566 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:29:17.855020Z 581 [Note] Aborted connection 581 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:29:17.855020Z 582 [Note] Aborted connection 582 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:29:17.855020Z 584 [Note] Aborted connection 584 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:29:17.855020Z 583 [Note] Aborted connection 583 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:29:17.855020Z 577 [Note] Aborted connection 577 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:29:17.855020Z 569 [Note] Aborted connection 569 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:29:17.855020Z 580 [Note] Aborted connection 580 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:29:17.855020Z 571 [Note] Aborted connection 571 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:29:17.855020Z 578 [Note] Aborted connection 578 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:29:17.855020Z 579 [Note] Aborted connection 579 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-04T14:30:08.656926Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-05-04T14:30:08.657926Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-05-04T14:30:08.658926Z 0 [Note] Shutting down slave threads
+2019-05-04T14:30:08.660926Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-05-04T14:30:08.662926Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-05-04T14:30:08.666926Z 0 [Note] Binlog end
+2019-05-04T14:30:08.700928Z 0 [Note] Shutting down plugin 'ngram'
+2019-05-04T14:30:08.701928Z 0 [Note] Shutting down plugin 'partition'
+2019-05-04T14:30:08.702928Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-05-04T14:30:08.703928Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-05-04T14:30:08.703928Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-05-04T14:30:08.704929Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-05-04T14:30:08.705929Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-05-04T14:30:08.707929Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-05-04T14:30:08.707929Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-05-04T14:30:08.708929Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-05-04T14:30:08.708929Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-05-04T14:30:08.709929Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-05-04T14:30:08.709929Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-05-04T14:30:08.710929Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-05-04T14:30:08.710929Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-05-04T14:30:08.711929Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-05-04T14:30:08.711929Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-05-04T14:30:08.712929Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-05-04T14:30:08.712929Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-05-04T14:30:08.713929Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-05-04T14:30:08.713929Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-05-04T14:30:08.714929Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-05-04T14:30:08.715929Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-05-04T14:30:08.715929Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-05-04T14:30:08.716929Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-05-04T14:30:08.716929Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-05-04T14:30:08.717929Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-05-04T14:30:08.717929Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-05-04T14:30:08.718929Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-05-04T14:30:08.718929Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-05-04T14:30:08.719929Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-05-04T14:30:08.719929Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-05-04T14:30:08.720929Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-05-04T14:30:08.720929Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-05-04T14:30:08.721929Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-05-04T14:30:08.721929Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-05-04T14:30:08.722930Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-05-04T14:30:08.722930Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-05-04T14:30:08.726930Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-05-04T14:30:08.727930Z 0 [Note] InnoDB: Starting shutdown...
+2019-05-04T14:30:08.830936Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-04T14:30:08.844937Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190504 22:30:08
+2019-05-04T14:30:09.895997Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4234579
+2019-05-04T14:30:09.898997Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-05-04T14:30:09.898997Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-05-04T14:30:09.899997Z 0 [Note] Shutting down plugin 'CSV'
+2019-05-04T14:30:09.899997Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-05-04T14:30:09.900997Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-05-04T14:30:09.901997Z 0 [Note] Shutting down plugin 'binlog'
+2019-05-04T14:30:09.908997Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
