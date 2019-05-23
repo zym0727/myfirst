@@ -12474,3 +12474,585 @@ Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2019-05-12T11:29:36.970197Z 251 [Note] Aborted connection 251 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
 2019-05-12T11:29:36.970197Z 253 [Note] Aborted connection 253 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
 2019-05-12T11:29:36.970197Z 254 [Note] Aborted connection 254 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-12T11:56:09.626292Z 255 [Warning] Host name 'idc.ly.ha' could not be resolved: 不知道这样的主机。 
+2019-05-12T15:02:09.855620Z 256 [Warning] Host name 'zg-0301d-15.stretchoid.com' could not be resolved: 不知道这样的主机。 
+2019-05-12T15:46:19.892989Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-05-12T15:46:19.892989Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-05-12T15:46:19.892989Z 0 [Note] Shutting down slave threads
+2019-05-12T15:46:19.892989Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-05-12T15:46:19.892989Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-05-12T15:46:19.908589Z 0 [Note] Binlog end
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'ngram'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'partition'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-05-12T15:46:19.908589Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-05-12T15:46:19.924189Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-05-12T15:46:19.924189Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-05-12T15:46:19.924189Z 0 [Note] InnoDB: Starting shutdown...
+2019-05-12T15:46:20.033389Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-12T15:46:20.033389Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190512 23:46:20
+2019-05-12T15:46:20.906991Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4897731
+2019-05-12T15:46:20.906991Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-05-12T15:46:20.906991Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-05-12T15:46:20.906991Z 0 [Note] Shutting down plugin 'CSV'
+2019-05-12T15:46:20.906991Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-05-12T15:46:20.906991Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-05-12T15:46:20.906991Z 0 [Note] Shutting down plugin 'binlog'
+2019-05-12T15:46:20.906991Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2019-05-14T10:04:15.857009Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-05-14T10:04:15.857009Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-05-14T10:04:15.864010Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.15-log) starting as process 5632 ...
+2019-05-14T10:04:15.903012Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-05-14T10:04:15.903012Z 0 [Note] InnoDB: Uses event mutexes
+2019-05-14T10:04:15.904012Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-05-14T10:04:15.905012Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-05-14T10:04:15.905012Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-05-14T10:04:15.912012Z 0 [Note] InnoDB: Number of pools: 1
+2019-05-14T10:04:15.915013Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-05-14T10:04:15.926013Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-05-14T10:04:15.930013Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-05-14T10:04:15.968016Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-05-14T10:04:16.131025Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-05-14T10:04:16.133025Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-05-14T10:04:16.226030Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-05-14T10:04:16.232031Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-05-14T10:04:16.234031Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-05-14T10:04:16.238031Z 0 [Note] InnoDB: Waiting for purge to start
+2019-05-14T10:04:16.290034Z 0 [Note] InnoDB: 5.7.15 started; log sequence number 4897731
+2019-05-14T10:04:16.291034Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-14T10:04:16.292034Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-05-14T10:04:16.299034Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190514 18:04:16
+2019-05-14T10:04:16.335037Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-05-14T10:04:16.337037Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-05-14T10:04:16.340037Z 0 [Note] IPv6 is available.
+2019-05-14T10:04:16.340037Z 0 [Note]   - '::' resolves to '::';
+2019-05-14T10:04:16.341037Z 0 [Note] Server socket created on IP: '::'.
+2019-05-14T10:04:16.550049Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-05-14T10:04:16.551049Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-05-14T10:15:00.310870Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-05-14T10:15:00.311870Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-05-14T10:15:00.312870Z 0 [Note] Shutting down slave threads
+2019-05-14T10:15:00.312870Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-05-14T10:15:00.313870Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-05-14T10:15:00.313870Z 0 [Note] Binlog end
+2019-05-14T10:15:00.316870Z 0 [Note] Shutting down plugin 'ngram'
+2019-05-14T10:15:00.316870Z 0 [Note] Shutting down plugin 'partition'
+2019-05-14T10:15:00.316870Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-05-14T10:15:00.317870Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-05-14T10:15:00.317870Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-05-14T10:15:00.317870Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-05-14T10:15:00.318870Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-05-14T10:15:00.318870Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-05-14T10:15:00.319870Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-05-14T10:15:00.319870Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-05-14T10:15:00.320870Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-05-14T10:15:00.320870Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-05-14T10:15:00.320870Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-05-14T10:15:00.321870Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-05-14T10:15:00.321870Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-05-14T10:15:00.322871Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-05-14T10:15:00.322871Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-05-14T10:15:00.323871Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-05-14T10:15:00.323871Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-05-14T10:15:00.323871Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-05-14T10:15:00.324871Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-05-14T10:15:00.324871Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-05-14T10:15:00.325871Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-05-14T10:15:00.325871Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-05-14T10:15:00.326871Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-05-14T10:15:00.326871Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-05-14T10:15:00.326871Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-05-14T10:15:00.327871Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-05-14T10:15:00.327871Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-05-14T10:15:00.328871Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-05-14T10:15:00.328871Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-05-14T10:15:00.329871Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-05-14T10:15:00.329871Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-05-14T10:15:00.329871Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-05-14T10:15:00.330871Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-05-14T10:15:00.330871Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-05-14T10:15:00.331871Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-05-14T10:15:00.331871Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-05-14T10:15:00.331871Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-05-14T10:15:00.332871Z 0 [Note] InnoDB: Starting shutdown...
+2019-05-14T10:15:00.432877Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-14T10:15:00.437877Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190514 18:15:00
+2019-05-14T10:15:01.352929Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4905971
+2019-05-14T10:15:01.354930Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-05-14T10:15:01.355930Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-05-14T10:15:01.356930Z 0 [Note] Shutting down plugin 'CSV'
+2019-05-14T10:15:01.357930Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-05-14T10:15:01.358930Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-05-14T10:15:01.359930Z 0 [Note] Shutting down plugin 'binlog'
+2019-05-14T10:15:01.370931Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2019-05-21T08:53:10.574659Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-05-21T08:53:10.574659Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-05-21T08:53:10.574659Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.15-log) starting as process 1028 ...
+2019-05-21T08:53:10.621459Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-05-21T08:53:10.621459Z 0 [Note] InnoDB: Uses event mutexes
+2019-05-21T08:53:10.621459Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-05-21T08:53:10.621459Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-05-21T08:53:10.621459Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-05-21T08:53:10.637059Z 0 [Note] InnoDB: Number of pools: 1
+2019-05-21T08:53:10.637059Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-05-21T08:53:10.652659Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-05-21T08:53:10.652659Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-05-21T08:53:10.683859Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-05-21T08:53:10.839859Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-05-21T08:53:10.839859Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-05-21T08:53:10.917859Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-05-21T08:53:10.933459Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-05-21T08:53:10.933459Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-05-21T08:53:10.933459Z 0 [Note] InnoDB: Waiting for purge to start
+2019-05-21T08:53:10.995859Z 0 [Note] InnoDB: 5.7.15 started; log sequence number 4905971
+2019-05-21T08:53:10.995859Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-21T08:53:10.995859Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-05-21T08:53:11.011459Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190521 16:53:11
+2019-05-21T08:53:11.042659Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-05-21T08:53:11.042659Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-05-21T08:53:11.042659Z 0 [Note] IPv6 is available.
+2019-05-21T08:53:11.042659Z 0 [Note]   - '::' resolves to '::';
+2019-05-21T08:53:11.042659Z 0 [Note] Server socket created on IP: '::'.
+2019-05-21T08:53:11.229860Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-05-21T08:53:11.229860Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-05-21T08:59:48.072977Z 4 [Note] Aborted connection 4 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-21T08:59:48.072977Z 5 [Note] Aborted connection 5 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-21T08:59:48.072977Z 6 [Note] Aborted connection 6 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-21T08:59:48.072977Z 7 [Note] Aborted connection 7 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-21T08:59:48.072977Z 9 [Note] Aborted connection 9 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-21T08:59:48.072977Z 8 [Note] Aborted connection 8 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-21T08:59:48.072977Z 10 [Note] Aborted connection 10 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-21T08:59:48.072977Z 11 [Note] Aborted connection 11 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-21T08:59:48.072977Z 12 [Note] Aborted connection 12 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-21T08:59:48.072977Z 13 [Note] Aborted connection 13 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-21T09:00:02.515803Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-05-21T09:00:02.516803Z 0 [Note] Giving 2 client threads a chance to die gracefully
+2019-05-21T09:00:02.517803Z 0 [Note] Shutting down slave threads
+2019-05-21T09:00:04.517918Z 0 [Note] Forcefully disconnecting 2 remaining clients
+2019-05-21T09:00:04.518918Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 2  user: 'root'
+
+2019-05-21T09:00:04.519918Z 0 [Warning] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Forcing close of thread 3  user: 'root'
+
+2019-05-21T09:00:04.521918Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-05-21T09:00:04.522918Z 0 [Note] Binlog end
+2019-05-21T09:00:04.526918Z 0 [Note] Shutting down plugin 'ngram'
+2019-05-21T09:00:04.527918Z 0 [Note] Shutting down plugin 'partition'
+2019-05-21T09:00:04.528918Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-05-21T09:00:04.528918Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-05-21T09:00:04.529918Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-05-21T09:00:04.530918Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-05-21T09:00:04.531919Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-05-21T09:00:04.532919Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-05-21T09:00:04.532919Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-05-21T09:00:04.533919Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-05-21T09:00:04.534919Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-05-21T09:00:04.535919Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-05-21T09:00:04.536919Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-05-21T09:00:04.537919Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-05-21T09:00:04.538919Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-05-21T09:00:04.539919Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-05-21T09:00:04.539919Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-05-21T09:00:04.540919Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-05-21T09:00:04.541919Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-05-21T09:00:04.542919Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-05-21T09:00:04.543919Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-05-21T09:00:04.543919Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-05-21T09:00:04.544919Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-05-21T09:00:04.544919Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-05-21T09:00:04.545919Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-05-21T09:00:04.545919Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-05-21T09:00:04.546919Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-05-21T09:00:04.546919Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-05-21T09:00:04.546919Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-05-21T09:00:04.547919Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-05-21T09:00:04.547919Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-05-21T09:00:04.548920Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-05-21T09:00:04.548920Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-05-21T09:00:04.549920Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-05-21T09:00:04.549920Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-05-21T09:00:04.549920Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-05-21T09:00:04.550920Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-05-21T09:00:04.550920Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-05-21T09:00:04.551920Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-05-21T09:00:04.551920Z 0 [Note] InnoDB: Starting shutdown...
+2019-05-21T09:00:04.652925Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-21T09:00:04.658926Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190521 17:00:04
+2019-05-21T09:00:05.666983Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4906015
+2019-05-21T09:00:05.668984Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-05-21T09:00:05.669984Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-05-21T09:00:05.670984Z 0 [Note] Shutting down plugin 'CSV'
+2019-05-21T09:00:05.670984Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-05-21T09:00:05.671984Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-05-21T09:00:05.672984Z 0 [Note] Shutting down plugin 'binlog'
+2019-05-21T09:00:05.683984Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
+2019-05-23T11:30:23.990096Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2019-05-23T11:30:23.990096Z 0 [Warning] 'NO_ZERO_DATE', 'NO_ZERO_IN_DATE' and 'ERROR_FOR_DIVISION_BY_ZERO' sql modes should be used with strict mode. They will be merged with strict mode in a future release.
+2019-05-23T11:30:24.005696Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe (mysqld 5.7.15-log) starting as process 672 ...
+2019-05-23T11:30:24.036896Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2019-05-23T11:30:24.052497Z 0 [Note] InnoDB: Uses event mutexes
+2019-05-23T11:30:24.052497Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2019-05-23T11:30:24.052497Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2019-05-23T11:30:24.052497Z 0 [Note] InnoDB: Adjusting innodb_buffer_pool_instances from 8 to 1 since innodb_buffer_pool_size is less than 1024 MiB
+2019-05-23T11:30:24.052497Z 0 [Note] InnoDB: Number of pools: 1
+2019-05-23T11:30:24.052497Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2019-05-23T11:30:24.068097Z 0 [Note] InnoDB: Initializing buffer pool, total size = 8M, instances = 1, chunk size = 8M
+2019-05-23T11:30:24.068097Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2019-05-23T11:30:24.099297Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2019-05-23T11:30:24.270897Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2019-05-23T11:30:24.270897Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2019-05-23T11:30:24.348897Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2019-05-23T11:30:24.348897Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2019-05-23T11:30:24.364497Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2019-05-23T11:30:24.364497Z 0 [Note] InnoDB: Waiting for purge to start
+2019-05-23T11:30:24.426897Z 0 [Note] InnoDB: 5.7.15 started; log sequence number 4906015
+2019-05-23T11:30:24.426897Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-23T11:30:24.426897Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2019-05-23T11:30:24.458097Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2019-05-23T11:30:24.458097Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2019-05-23T11:30:24.473697Z 0 [Note] IPv6 is available.
+2019-05-23T11:30:24.473697Z 0 [Note]   - '::' resolves to '::';
+2019-05-23T11:30:24.473697Z 0 [Note] Server socket created on IP: '::'.
+2019-05-23T11:30:24.473697Z 0 [Note] InnoDB: Buffer pool(s) load completed at 190523 19:30:24
+2019-05-23T11:30:24.660898Z 0 [Note] Event Scheduler: Loaded 0 events
+2019-05-23T11:30:24.660898Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: ready for connections.
+Version: '5.7.15-log'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2019-05-23T12:18:19.526101Z 14 [Note] Aborted connection 14 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:18:19.526101Z 15 [Note] Aborted connection 15 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:18:19.526101Z 16 [Note] Aborted connection 16 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:18:19.526101Z 17 [Note] Aborted connection 17 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:18:19.526101Z 18 [Note] Aborted connection 18 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:18:19.527101Z 19 [Note] Aborted connection 19 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:18:19.527101Z 21 [Note] Aborted connection 21 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:18:19.527101Z 20 [Note] Aborted connection 20 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:18:19.527101Z 22 [Note] Aborted connection 22 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:18:19.527101Z 23 [Note] Aborted connection 23 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:29:22.368013Z 26 [Note] Aborted connection 26 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:29:22.368013Z 24 [Note] Aborted connection 24 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:29:22.368013Z 25 [Note] Aborted connection 25 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:29:22.368013Z 27 [Note] Aborted connection 27 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:29:22.368013Z 28 [Note] Aborted connection 28 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:29:22.368013Z 29 [Note] Aborted connection 29 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:29:22.369013Z 30 [Note] Aborted connection 30 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:29:22.369013Z 31 [Note] Aborted connection 31 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:29:22.369013Z 32 [Note] Aborted connection 32 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:29:22.369013Z 33 [Note] Aborted connection 33 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:38:23.804981Z 34 [Note] Aborted connection 34 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:38:23.804981Z 35 [Note] Aborted connection 35 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:38:23.804981Z 36 [Note] Aborted connection 36 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:38:23.804981Z 37 [Note] Aborted connection 37 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:38:23.804981Z 39 [Note] Aborted connection 39 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:38:23.804981Z 38 [Note] Aborted connection 38 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:38:23.804981Z 40 [Note] Aborted connection 40 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:38:23.804981Z 41 [Note] Aborted connection 41 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:38:23.804981Z 42 [Note] Aborted connection 42 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:38:23.804981Z 43 [Note] Aborted connection 43 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:39:32.723923Z 44 [Note] Aborted connection 44 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:39:32.723923Z 46 [Note] Aborted connection 46 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:39:32.723923Z 47 [Note] Aborted connection 47 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:39:32.723923Z 48 [Note] Aborted connection 48 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:39:32.723923Z 49 [Note] Aborted connection 49 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:39:32.723923Z 45 [Note] Aborted connection 45 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:39:32.723923Z 50 [Note] Aborted connection 50 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:39:32.723923Z 51 [Note] Aborted connection 51 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:39:32.723923Z 52 [Note] Aborted connection 52 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:39:32.723923Z 53 [Note] Aborted connection 53 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:40:52.751501Z 55 [Note] Aborted connection 55 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:40:52.751501Z 54 [Note] Aborted connection 54 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:40:52.751501Z 57 [Note] Aborted connection 57 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:40:52.752501Z 58 [Note] Aborted connection 58 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:40:52.752501Z 59 [Note] Aborted connection 59 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:40:52.752501Z 60 [Note] Aborted connection 60 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:40:52.752501Z 56 [Note] Aborted connection 56 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:40:52.752501Z 62 [Note] Aborted connection 62 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:40:52.752501Z 61 [Note] Aborted connection 61 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:40:52.752501Z 63 [Note] Aborted connection 63 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:41:27.240473Z 64 [Note] Aborted connection 64 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:41:27.240473Z 66 [Note] Aborted connection 66 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:41:27.240473Z 65 [Note] Aborted connection 65 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:41:27.240473Z 67 [Note] Aborted connection 67 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:41:27.240473Z 68 [Note] Aborted connection 68 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:41:27.241473Z 69 [Note] Aborted connection 69 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:41:27.241473Z 70 [Note] Aborted connection 70 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:41:27.241473Z 71 [Note] Aborted connection 71 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:41:27.241473Z 72 [Note] Aborted connection 72 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:41:27.241473Z 73 [Note] Aborted connection 73 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:45:27.123194Z 74 [Note] Aborted connection 74 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:45:27.123194Z 76 [Note] Aborted connection 76 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:45:27.123194Z 75 [Note] Aborted connection 75 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:45:27.124194Z 78 [Note] Aborted connection 78 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:45:27.124194Z 79 [Note] Aborted connection 79 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:45:27.124194Z 77 [Note] Aborted connection 77 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:45:27.124194Z 80 [Note] Aborted connection 80 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:45:27.124194Z 81 [Note] Aborted connection 81 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:45:27.124194Z 82 [Note] Aborted connection 82 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:45:27.124194Z 83 [Note] Aborted connection 83 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:46:43.697574Z 85 [Note] Aborted connection 85 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:46:43.698574Z 84 [Note] Aborted connection 84 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:46:43.698574Z 86 [Note] Aborted connection 86 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:46:43.698574Z 87 [Note] Aborted connection 87 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:46:43.698574Z 88 [Note] Aborted connection 88 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:46:43.698574Z 89 [Note] Aborted connection 89 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:46:43.698574Z 90 [Note] Aborted connection 90 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:46:43.698574Z 91 [Note] Aborted connection 91 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:46:43.698574Z 92 [Note] Aborted connection 92 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:46:43.699574Z 93 [Note] Aborted connection 93 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:57:31.444623Z 94 [Note] Aborted connection 94 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:57:31.444623Z 95 [Note] Aborted connection 95 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:57:31.444623Z 96 [Note] Aborted connection 96 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:57:31.444623Z 97 [Note] Aborted connection 97 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:57:31.444623Z 98 [Note] Aborted connection 98 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:57:31.445623Z 100 [Note] Aborted connection 100 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:57:31.445623Z 99 [Note] Aborted connection 99 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:57:31.445623Z 101 [Note] Aborted connection 101 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:57:31.445623Z 102 [Note] Aborted connection 102 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T12:57:31.445623Z 103 [Note] Aborted connection 103 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:00:10.796737Z 105 [Note] Aborted connection 105 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:00:10.796737Z 104 [Note] Aborted connection 104 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:00:10.796737Z 106 [Note] Aborted connection 106 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:00:10.796737Z 107 [Note] Aborted connection 107 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:00:10.796737Z 108 [Note] Aborted connection 108 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:00:10.796737Z 109 [Note] Aborted connection 109 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:00:10.796737Z 110 [Note] Aborted connection 110 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:00:10.796737Z 111 [Note] Aborted connection 111 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:00:10.796737Z 112 [Note] Aborted connection 112 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:00:10.796737Z 113 [Note] Aborted connection 113 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:02:37.994156Z 114 [Note] Aborted connection 114 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:02:37.994156Z 116 [Note] Aborted connection 116 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:02:37.994156Z 115 [Note] Aborted connection 115 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:02:37.994156Z 117 [Note] Aborted connection 117 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:02:37.994156Z 118 [Note] Aborted connection 118 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:02:37.994156Z 119 [Note] Aborted connection 119 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:02:37.994156Z 120 [Note] Aborted connection 120 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:02:37.994156Z 121 [Note] Aborted connection 121 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:02:37.994156Z 122 [Note] Aborted connection 122 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:02:37.994156Z 123 [Note] Aborted connection 123 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:04:33.106740Z 124 [Note] Aborted connection 124 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:04:33.106740Z 125 [Note] Aborted connection 125 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:04:33.106740Z 126 [Note] Aborted connection 126 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:04:33.106740Z 127 [Note] Aborted connection 127 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:04:33.106740Z 129 [Note] Aborted connection 129 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:04:33.107740Z 128 [Note] Aborted connection 128 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:04:33.107740Z 132 [Note] Aborted connection 132 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:04:33.107740Z 130 [Note] Aborted connection 130 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:04:33.107740Z 133 [Note] Aborted connection 133 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:04:33.107740Z 131 [Note] Aborted connection 131 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:06:13.364475Z 135 [Warning] IP address '61.164.252.54' has been resolved to the host name '54.252.164.61.broad.ls.zj.dynamic.163data.com.cn', which resembles IPv4-address itself.
+2019-05-23T13:08:35.408599Z 136 [Note] Aborted connection 136 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:08:35.408599Z 137 [Note] Aborted connection 137 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:08:35.408599Z 141 [Note] Aborted connection 141 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:08:35.408599Z 140 [Note] Aborted connection 140 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:08:35.409599Z 139 [Note] Aborted connection 139 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:08:35.409599Z 142 [Note] Aborted connection 142 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:08:35.409599Z 143 [Note] Aborted connection 143 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:08:35.409599Z 144 [Note] Aborted connection 144 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:08:35.409599Z 145 [Note] Aborted connection 145 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:08:35.409599Z 138 [Note] Aborted connection 138 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:11:23.374206Z 148 [Note] Aborted connection 148 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:11:23.374206Z 146 [Note] Aborted connection 146 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:11:23.374206Z 147 [Note] Aborted connection 147 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:11:23.374206Z 149 [Note] Aborted connection 149 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:11:23.374206Z 150 [Note] Aborted connection 150 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:11:23.374206Z 151 [Note] Aborted connection 151 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:11:23.374206Z 152 [Note] Aborted connection 152 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:11:23.375206Z 153 [Note] Aborted connection 153 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:11:23.375206Z 154 [Note] Aborted connection 154 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:11:23.375206Z 155 [Note] Aborted connection 155 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:17:47.960203Z 156 [Note] Aborted connection 156 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:17:47.960203Z 157 [Note] Aborted connection 157 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:17:47.961203Z 160 [Note] Aborted connection 160 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:17:47.961203Z 161 [Note] Aborted connection 161 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:17:47.961203Z 162 [Note] Aborted connection 162 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:17:47.961203Z 159 [Note] Aborted connection 159 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:17:47.961203Z 158 [Note] Aborted connection 158 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:17:47.961203Z 163 [Note] Aborted connection 163 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:17:47.961203Z 164 [Note] Aborted connection 164 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:17:47.961203Z 165 [Note] Aborted connection 165 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:20:01.540844Z 166 [Note] Aborted connection 166 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:20:01.540844Z 168 [Note] Aborted connection 168 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:20:01.540844Z 167 [Note] Aborted connection 167 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:20:01.540844Z 170 [Note] Aborted connection 170 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:20:01.540844Z 169 [Note] Aborted connection 169 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:20:01.540844Z 171 [Note] Aborted connection 171 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:20:01.541844Z 172 [Note] Aborted connection 172 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:20:01.541844Z 173 [Note] Aborted connection 173 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:20:01.541844Z 174 [Note] Aborted connection 174 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:20:01.541844Z 175 [Note] Aborted connection 175 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:21:28.533819Z 178 [Note] Aborted connection 178 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:21:28.533819Z 177 [Note] Aborted connection 177 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:21:28.533819Z 176 [Note] Aborted connection 176 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:21:28.533819Z 180 [Note] Aborted connection 180 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:21:28.534820Z 182 [Note] Aborted connection 182 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:21:28.534820Z 183 [Note] Aborted connection 183 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:21:28.534820Z 179 [Note] Aborted connection 179 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:21:28.534820Z 181 [Note] Aborted connection 181 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:21:28.534820Z 184 [Note] Aborted connection 184 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:21:28.534820Z 185 [Note] Aborted connection 185 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:23:36.843158Z 188 [Note] Aborted connection 188 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:23:36.843158Z 186 [Note] Aborted connection 186 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:23:36.843158Z 187 [Note] Aborted connection 187 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:23:36.843158Z 189 [Note] Aborted connection 189 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:23:36.843158Z 190 [Note] Aborted connection 190 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:23:36.844158Z 191 [Note] Aborted connection 191 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:23:36.844158Z 192 [Note] Aborted connection 192 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:23:36.844158Z 193 [Note] Aborted connection 193 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:23:36.844158Z 194 [Note] Aborted connection 194 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:23:36.844158Z 195 [Note] Aborted connection 195 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:25:14.147724Z 196 [Note] Aborted connection 196 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:25:14.147724Z 198 [Note] Aborted connection 198 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:25:14.147724Z 197 [Note] Aborted connection 197 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:25:14.147724Z 199 [Note] Aborted connection 199 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:25:14.147724Z 200 [Note] Aborted connection 200 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:25:14.147724Z 201 [Note] Aborted connection 201 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:25:14.147724Z 202 [Note] Aborted connection 202 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:25:14.147724Z 203 [Note] Aborted connection 203 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:25:14.147724Z 204 [Note] Aborted connection 204 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:25:14.147724Z 205 [Note] Aborted connection 205 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:26:57.007607Z 206 [Note] Aborted connection 206 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:26:57.007607Z 208 [Note] Aborted connection 208 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:26:57.007607Z 207 [Note] Aborted connection 207 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:26:57.007607Z 209 [Note] Aborted connection 209 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:26:57.007607Z 210 [Note] Aborted connection 210 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:26:57.007607Z 213 [Note] Aborted connection 213 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:26:57.007607Z 214 [Note] Aborted connection 214 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:26:57.008607Z 211 [Note] Aborted connection 211 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:26:57.008607Z 212 [Note] Aborted connection 212 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:26:57.008607Z 215 [Note] Aborted connection 215 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:28:38.668422Z 217 [Note] Aborted connection 217 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:28:38.668422Z 216 [Note] Aborted connection 216 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:28:38.668422Z 218 [Note] Aborted connection 218 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:28:38.668422Z 221 [Note] Aborted connection 221 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:28:38.669422Z 220 [Note] Aborted connection 220 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:28:38.669422Z 219 [Note] Aborted connection 219 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:28:38.669422Z 222 [Note] Aborted connection 222 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:28:38.669422Z 223 [Note] Aborted connection 223 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:28:38.669422Z 224 [Note] Aborted connection 224 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:28:38.669422Z 225 [Note] Aborted connection 225 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:35:22.816538Z 227 [Note] Aborted connection 227 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:35:22.816538Z 228 [Note] Aborted connection 228 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:35:22.816538Z 226 [Note] Aborted connection 226 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:35:22.816538Z 229 [Note] Aborted connection 229 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:35:22.816538Z 230 [Note] Aborted connection 230 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:35:22.816538Z 231 [Note] Aborted connection 231 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:35:22.816538Z 232 [Note] Aborted connection 232 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:35:22.816538Z 233 [Note] Aborted connection 233 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:35:22.817538Z 234 [Note] Aborted connection 234 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:35:22.817538Z 235 [Note] Aborted connection 235 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:38:59.613938Z 238 [Note] Aborted connection 238 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:38:59.613938Z 237 [Note] Aborted connection 237 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:38:59.613938Z 236 [Note] Aborted connection 236 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:38:59.613938Z 239 [Note] Aborted connection 239 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:38:59.613938Z 240 [Note] Aborted connection 240 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:38:59.613938Z 241 [Note] Aborted connection 241 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:38:59.613938Z 242 [Note] Aborted connection 242 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:38:59.613938Z 243 [Note] Aborted connection 243 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:38:59.613938Z 244 [Note] Aborted connection 244 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T13:38:59.614938Z 245 [Note] Aborted connection 245 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:04:24.504157Z 250 [Note] Aborted connection 250 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:04:24.504157Z 249 [Note] Aborted connection 249 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:04:24.504157Z 251 [Note] Aborted connection 251 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:04:24.504157Z 252 [Note] Aborted connection 252 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:04:24.505157Z 253 [Note] Aborted connection 253 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:04:24.505157Z 254 [Note] Aborted connection 254 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:04:24.505157Z 255 [Note] Aborted connection 255 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:04:24.505157Z 256 [Note] Aborted connection 256 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:04:24.505157Z 258 [Note] Aborted connection 258 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:04:24.505157Z 257 [Note] Aborted connection 257 to db: 'homework_manager' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2019-05-23T14:05:33.214087Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Normal shutdown
+
+2019-05-23T14:05:33.215087Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2019-05-23T14:05:33.216087Z 0 [Note] Shutting down slave threads
+2019-05-23T14:05:33.216087Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2019-05-23T14:05:33.217087Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2019-05-23T14:05:33.217087Z 0 [Note] Binlog end
+2019-05-23T14:05:33.221087Z 0 [Note] Shutting down plugin 'ngram'
+2019-05-23T14:05:33.221087Z 0 [Note] Shutting down plugin 'partition'
+2019-05-23T14:05:33.222087Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2019-05-23T14:05:33.222087Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2019-05-23T14:05:33.223087Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2019-05-23T14:05:33.223087Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2019-05-23T14:05:33.223087Z 0 [Note] Shutting down plugin 'MyISAM'
+2019-05-23T14:05:33.224087Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2019-05-23T14:05:33.224087Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2019-05-23T14:05:33.225087Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2019-05-23T14:05:33.225087Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2019-05-23T14:05:33.226087Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2019-05-23T14:05:33.226087Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2019-05-23T14:05:33.226087Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2019-05-23T14:05:33.227087Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2019-05-23T14:05:33.227087Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2019-05-23T14:05:33.228087Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2019-05-23T14:05:33.228087Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2019-05-23T14:05:33.229087Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2019-05-23T14:05:33.229087Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2019-05-23T14:05:33.229087Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2019-05-23T14:05:33.230087Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2019-05-23T14:05:33.230087Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2019-05-23T14:05:33.231087Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2019-05-23T14:05:33.231087Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2019-05-23T14:05:33.232088Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2019-05-23T14:05:33.232088Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2019-05-23T14:05:33.232088Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2019-05-23T14:05:33.233088Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2019-05-23T14:05:33.233088Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2019-05-23T14:05:33.234088Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2019-05-23T14:05:33.234088Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2019-05-23T14:05:33.235088Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2019-05-23T14:05:33.235088Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2019-05-23T14:05:33.235088Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2019-05-23T14:05:33.236088Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2019-05-23T14:05:33.236088Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2019-05-23T14:05:33.237088Z 0 [Note] Shutting down plugin 'InnoDB'
+2019-05-23T14:05:33.237088Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2019-05-23T14:05:33.238088Z 0 [Note] InnoDB: Starting shutdown...
+2019-05-23T14:05:33.338094Z 0 [Note] InnoDB: Dumping buffer pool(s) to C:\ProgramData\MySQL\MySQL Server 5.7\Data\ib_buffer_pool
+2019-05-23T14:05:33.344094Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 190523 22:05:33
+2019-05-23T14:05:34.054135Z 0 [Note] InnoDB: Shutdown completed; log sequence number 5170442
+2019-05-23T14:05:34.055135Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2019-05-23T14:05:34.056135Z 0 [Note] Shutting down plugin 'MEMORY'
+2019-05-23T14:05:34.057135Z 0 [Note] Shutting down plugin 'CSV'
+2019-05-23T14:05:34.058135Z 0 [Note] Shutting down plugin 'sha256_password'
+2019-05-23T14:05:34.059135Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2019-05-23T14:05:34.060135Z 0 [Note] Shutting down plugin 'binlog'
+2019-05-23T14:05:34.070135Z 0 [Note] C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe: Shutdown complete
+
