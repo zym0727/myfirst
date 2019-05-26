@@ -6,3 +6,7 @@ git remote add origin https/git 添加远程仓库的关联
 git pull --rebase origin master  代码合并pull=fetch+merge
 git push origin master 将当前分支推送到origin主机的对应分支。
 git push -u origin master 当前分支与多个主机存在追踪关系，那么这个时候-u选项会指定一个默认主机，这样后面就可以不加任何参数使用git push。
+git强制覆盖：
+    git fetch --all
+    git reset --hard origin/master
+    git pull
